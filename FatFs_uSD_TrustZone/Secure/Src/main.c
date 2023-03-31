@@ -59,7 +59,7 @@ static uint8_t* Secure_task(uint8_t size);
 
 
 ////////////////Define MX_GTZC_S_Init(void)
-static void MX_GTZC_S_Init(void);
+static void MX_GTZC_S_Init(int size_s);
 
 ////////////////Define timer
 TIM_HandleTypeDef htim17;
@@ -72,7 +72,7 @@ extern funcptr_NS pTask1Callback;
 
 CMSE_NS_ENTRY void jump_secure(int num)
 {
-	flag_s = num;
+	flag_s++;
 	main();
 }
 
@@ -167,7 +167,8 @@ int main(void)
   ///////////Start executing model inference
   while(1)
   {
-	switch(flag_s){
+	int layer_num = flag_s-1;
+	switch(layer_num){
 	case 1: //layer 1 execution:
 	   ///////////Step1: Read the stored SRAM content from the SD card;
 	   FS_FileRead(arr, size);
@@ -180,7 +181,7 @@ int main(void)
 	   free(arr);
 
 	   ///////////Step4: Configure the allocation scheme between the secure world and the normal world of the TrustZone
-	   MX_GTZC_S_Init();
+	   MX_GTZC_S_Init(128);
 
 	   ///////////Step5: Jump back to the normal world to execute the tasks in the normal world.
 	   Normal_entry(pTask1Callback);
@@ -197,7 +198,7 @@ int main(void)
 	   free(arr);
 
 	   ///////////Step4: Configure the allocation scheme between the secure world and the normal world of the TrustZone
-	   MX_GTZC_S_Init();
+	   MX_GTZC_S_Init(128);
 
 	   ///////////Step5: Jump back to the normal world to execute the tasks in the normal world.
 	   Normal_entry(pTask1Callback);
@@ -214,7 +215,7 @@ int main(void)
 	   free(arr);
 
 	   ///////////Step4: Configure the allocation scheme between the secure world and the normal world of the TrustZone
-	   MX_GTZC_S_Init();
+	   MX_GTZC_S_Init(128);
 
 	   ///////////Step5: Jump back to the normal world to execute the tasks in the normal world.
 	   Normal_entry(pTask1Callback);
@@ -307,8 +308,122 @@ static void MX_TIM17_Init(void)
 }
 
 
+
+///////////The size_s representing the size of SRAM in kb
+static void MX_GTZC_S_Init(int size_s)
+{
+//  int block_s;
+//  int num_sixteens;
+  int array_num;
+  int remainder;
+
+//  block_s = (size_s*1024 + 255)/256;
+//  num_sixteens = (block_s + 15) / 16;
+  array_num = size_s/8;
+  remainder = size_s % 8;
+
+  if (remainder != 0) {
+      array_num = array_num + 1;
+  }
+//  remainder = num_sixteens%8;
+
+
+
+  /* USER CODE BEGIN GTZC_S_Init 0 */
+
+  /* USER CODE END GTZC_S_Init 0 */
+
+  MPCBB_ConfigTypeDef MPCBB_NonSecureArea_Desc = {0};
+
+  /* USER CODE BEGIN GTZC_S_Init 1 */
+
+  /* USER CODE END GTZC_S_Init 1 */
+  MPCBB_NonSecureArea_Desc.SecureRWIllegalMode = GTZC_MPCBB_SRWILADIS_ENABLE;
+  MPCBB_NonSecureArea_Desc.InvertSecureState = GTZC_MPCBB_INVSECSTATE_NOT_INVERTED;
+  if (array_num<=24){
+	 int i;
+	 int j;
+	 for (i=0; i<array_num; i++){
+		 MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[i] = 0xFFFFFFFF;
+	 }
+	 for (j=array_num; j<24; j++){
+		 MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[j] = 0x00000000;
+	 }
+  }
+
+  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_LockConfig_array[0] =   0x00000000;
+  if (HAL_GTZC_MPCBB_ConfigMem(SRAM1_BASE, &MPCBB_NonSecureArea_Desc) != HAL_OK)
+  {
+    ;
+  }
+
+  if (array_num>24){
+	  int k;
+	  k = array_num-24;
+	  int i;
+	  int j;
+	  for (i=0; i<k; i++){
+		  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[i] = 0xFFFFFFFF;
+	  }
+	  for (j=k; j<8; j++){
+		  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[j] = 0x00000000;
+	  }
+  } else {
+	  int i;
+	  for (i=0; i<8; i++){
+		  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[i] = 0x00000000;
+	  }
+  }
+
+  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_LockConfig_array[0] =   0x00000000;
+  if (HAL_GTZC_MPCBB_ConfigMem(SRAM2_BASE, &MPCBB_NonSecureArea_Desc) != HAL_OK)
+  {
+    ;
+  }
+  /* USER CODE BEGIN GTZC_S_Init 2 */
+
+  /* USER CODE END GTZC_S_Init 2 */
+
+}
+
+
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[0] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[1] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[2] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[3] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[4] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[5] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[6] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[7] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[8] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[9] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[10] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[11] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[12] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[13] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[14] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[15] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[16] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[17] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[18] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[19] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[20] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[21] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[22] =   0x00000000;
+//  MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[23] =   0x00000000;
+
+
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[0] =   0x00000000;
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[1] =   0x00000000;
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[2] =   0x00000000;
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[3] =   0x00000000;
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[4] =   0x00000000;
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[5] =   0x00000000;
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[6] =   0x00000000;
+//MPCBB_NonSecureArea_Desc.AttributeConfig.MPCBB_SecConfig_array[7] =   0x00000000;
+
 ///////////SAU configuration function and error handler
-static void MX_GTZC_S_Init(void)
+void MX_GTZC_S_Init_test(void)
 {
 
   /* USER CODE BEGIN GTZC_S_Init 0 */

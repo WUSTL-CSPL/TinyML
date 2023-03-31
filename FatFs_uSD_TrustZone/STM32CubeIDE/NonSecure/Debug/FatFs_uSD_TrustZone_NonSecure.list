@@ -5280,6 +5280,7 @@ int main(void)
 
 08041f38 <Task1_Delay>:
 
+/////////////Execute the normal world task and jump to the secure world.
 void Task1_Delay(void)
 {
  8041f38:	b580      	push	{r7, lr}
