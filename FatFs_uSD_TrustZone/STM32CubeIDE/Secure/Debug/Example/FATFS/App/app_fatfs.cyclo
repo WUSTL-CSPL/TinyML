@@ -1,0 +1,6 @@
+app_fatfs.c:73:9:MX_FATFS_Init	2
+app_fatfs.c:95:9:MX_FATFS_Process	7
+app_fatfs.c:154:7:get_fattime	1
+app_fatfs.c:167:9:FS_FileOperations	9
+app_fatfs.c:214:9:FS_FileWrite	5
+app_fatfs.c:262:9:FS_FileRead	5

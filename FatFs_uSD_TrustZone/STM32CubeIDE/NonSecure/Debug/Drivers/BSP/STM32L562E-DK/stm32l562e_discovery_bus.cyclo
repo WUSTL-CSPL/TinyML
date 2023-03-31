@@ -1,0 +1,16 @@
+stm32l562e_discovery_bus.c:211:9:BSP_GetTick	1
+stm32l562e_discovery_bus.c:223:9:BSP_I2C1_Init	5
+stm32l562e_discovery_bus.c:271:9:BSP_I2C1_DeInit	4
+stm32l562e_discovery_bus.c:301:26:MX_I2C1_Init	4
+stm32l562e_discovery_bus.c:348:9:BSP_I2C1_WriteReg	1
+stm32l562e_discovery_bus.c:361:9:BSP_I2C1_ReadReg	1
+stm32l562e_discovery_bus.c:374:9:BSP_I2C1_WriteReg16	1
+stm32l562e_discovery_bus.c:387:9:BSP_I2C1_ReadReg16	1
+stm32l562e_discovery_bus.c:398:9:BSP_I2C1_IsReady	2
+stm32l562e_discovery_bus.c:703:14:I2C1_MspInit	1
+stm32l562e_discovery_bus.c:744:13:I2C1_MspDeInit	1
+stm32l562e_discovery_bus.c:770:16:I2C1_WriteReg	7
+stm32l562e_discovery_bus.c:812:16:I2C1_ReadReg	7
+stm32l562e_discovery_bus.c:852:17:I2C_GetTiming	7
+stm32l562e_discovery_bus.c:890:13:I2C_Compute_PRESC_SCLDEL_SDADEL	11
+stm32l562e_discovery_bus.c:971:17:I2C_Compute_SCLL_SCLH	12

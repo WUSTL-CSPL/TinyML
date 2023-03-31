@@ -1,0 +1,6 @@
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/FATFS/Target/sd_diskio.c:93:16:SD_CheckStatus	16	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/FATFS/Target/sd_diskio.c:109:9:SD_initialize	16	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/FATFS/Target/sd_diskio.c:132:9:SD_status	16	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/FATFS/Target/sd_diskio.c:145:9:SD_read	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/FATFS/Target/sd_diskio.c:172:9:SD_write	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/FATFS/Target/sd_diskio.c:199:9:SD_ioctl	56	static

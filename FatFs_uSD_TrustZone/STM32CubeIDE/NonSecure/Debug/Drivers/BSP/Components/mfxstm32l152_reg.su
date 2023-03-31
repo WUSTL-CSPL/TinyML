@@ -1,0 +1,2 @@
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152_reg.c:46:9:mfxstm32l152_read_reg	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152_reg.c:58:9:mfxstm32l152_write_reg	32	static

@@ -1,0 +1,7 @@
+secure_nsc.c:49:20:SECURE_RegisterCallback	6
+secure_nsc.c:75:23:SECURE_SD_Init	1
+secure_nsc.c:84:23:SECURE_SD_GetCardState	1
+secure_nsc.c:94:23:SECURE_SD_GetCardInfo	1
+secure_nsc.c:103:23:SECURE_SD_ReadBlocks	1
+secure_nsc.c:112:23:SECURE_SD_WriteBlocks	1
+secure_nsc.c:121:23:SECURE_SD_IsDetected	1

@@ -1,0 +1,12 @@
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:53:6:NMI_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:61:6:HardFault_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:73:6:MemManage_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:85:6:BusFault_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:97:6:UsageFault_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:109:6:SecureFault_Handler	24	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:130:6:SVC_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:138:6:DebugMon_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:149:6:PendSV_Handler	4	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:160:6:SysTick_Handler	8	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:176:6:GTZC_IRQHandler	24	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Secure/Src/stm32l5xx_it.c:211:6:TIM17_IRQHandler	8	static

@@ -1,0 +1,2 @@
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/Core/Src/stm32l5xx_hal_msp.c:100:6:HAL_TIM_Base_MspInit	24	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/NonSecure/Core/Src/stm32l5xx_hal_msp.c:139:6:HAL_TIM_Base_MspDeInit	16	static

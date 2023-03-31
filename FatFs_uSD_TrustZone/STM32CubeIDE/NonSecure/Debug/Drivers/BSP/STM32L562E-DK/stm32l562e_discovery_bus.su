@@ -1,0 +1,16 @@
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:211:9:BSP_GetTick	16	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:223:9:BSP_I2C1_Init	16	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:271:9:BSP_I2C1_DeInit	16	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:301:26:MX_I2C1_Init	24	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:348:9:BSP_I2C1_WriteReg	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:361:9:BSP_I2C1_ReadReg	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:374:9:BSP_I2C1_WriteReg16	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:387:9:BSP_I2C1_ReadReg16	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:398:9:BSP_I2C1_IsReady	24	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:703:14:I2C1_MspInit	48	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:744:13:I2C1_MspDeInit	40	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:770:16:I2C1_WriteReg	48	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:812:16:I2C1_ReadReg	48	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:852:17:I2C_GetTiming	32	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:890:13:I2C_Compute_PRESC_SCLDEL_SDADEL	64	static
+/home/cspl/STM32CubeIDE/workspace_tinyml/FatFs_uSD_TrustZone/Drivers/BSP/STM32L562E-DK/stm32l562e_discovery_bus.c:971:17:I2C_Compute_SCLL_SCLH	80	static

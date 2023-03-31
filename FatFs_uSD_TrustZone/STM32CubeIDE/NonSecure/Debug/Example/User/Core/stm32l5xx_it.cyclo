@@ -1,0 +1,10 @@
+stm32l5xx_it.c:50:6:NMI_Handler	1
+stm32l5xx_it.c:58:6:HardFault_Handler	1
+stm32l5xx_it.c:70:6:MemManage_Handler	1
+stm32l5xx_it.c:82:6:BusFault_Handler	1
+stm32l5xx_it.c:94:6:UsageFault_Handler	1
+stm32l5xx_it.c:106:6:SVC_Handler	1
+stm32l5xx_it.c:114:6:DebugMon_Handler	1
+stm32l5xx_it.c:125:6:PendSV_Handler	1
+stm32l5xx_it.c:136:6:SysTick_Handler	1
+stm32l5xx_it.c:144:6:TIM16_IRQHandler	1
