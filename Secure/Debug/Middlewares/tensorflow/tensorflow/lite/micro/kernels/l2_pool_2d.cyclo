@@ -1,0 +1,9 @@
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+pooling.h:142:13:void tflite::reference_ops::L2Pool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	8
+l2_pool_2d.cc:108:14:TfLiteStatus tflite::{anonymous}::L2Eval(TfLiteContext*, TfLiteNode*)	4
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	4
+l2_pool_2d.cc:39:14:TfLiteStatus tflite::{anonymous}::L2Prepare(TfLiteContext*, TfLiteNode*)	12
+l2_pool_2d.cc:138:20:TfLiteRegistration tflite::Register_L2_POOL_2D()	1

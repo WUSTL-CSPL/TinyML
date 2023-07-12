@@ -1,0 +1,8 @@
+depth_to_space.cc:96:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	13
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+depth_to_space.cc:138:20:TfLiteRegistration tflite::Register_DEPTH_TO_SPACE()	1
+depth_to_space.h:24:13:void tflite::reference_ops::DepthToSpace(const tflite::DepthToSpaceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	12
+depth_to_space.h:24:13:void tflite::reference_ops::DepthToSpace(const tflite::DepthToSpaceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	12
+depth_to_space.cc:100:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	4

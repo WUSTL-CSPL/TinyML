@@ -1,0 +1,3 @@
+micro_error_reporter.h:28:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	1
+micro_error_reporter.cc:38:5:virtual int tflite::MicroErrorReporter::Report(const char*, va_list)	1
+micro_error_reporter.cc:31:16:tflite::ErrorReporter* tflite::GetMicroErrorReporter()	2

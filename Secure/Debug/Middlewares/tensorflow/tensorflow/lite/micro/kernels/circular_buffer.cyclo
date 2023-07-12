@@ -1,0 +1,5 @@
+op_macros.h:24:13:void AbortImpl()	1
+circular_buffer.cc:52:7:void* tflite::CircularBufferInit(TfLiteContext*, const char*, size_t)	3
+circular_buffer.cc:72:6:void tflite::EvalInt8(const int8_t*, int, int, int8_t*)	1
+circular_buffer.cc:77:14:TfLiteStatus tflite::CircularBufferEval(TfLiteContext*, TfLiteNode*)	3
+circular_buffer.cc:111:21:TfLiteRegistration* tflite::Register_CIRCULAR_BUFFER()	3

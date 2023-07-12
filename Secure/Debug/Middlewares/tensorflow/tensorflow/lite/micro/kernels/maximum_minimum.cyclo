@@ -1,0 +1,30 @@
+maximum_minimum.cc:56:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MaximumOp::op(data_type, data_type) [with data_type = float]	1
+maximum_minimum.cc:56:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MaximumOp::op(data_type, data_type) [with data_type = signed char]	1
+maximum_minimum.cc:56:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MaximumOp::op(data_type, data_type) [with data_type = long int]	1
+maximum_minimum.cc:56:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MaximumOp::op(data_type, data_type) [with data_type = long long int]	2
+maximum_minimum.cc:63:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MinimumOp::op(data_type, data_type) [with data_type = float]	1
+maximum_minimum.cc:63:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MinimumOp::op(data_type, data_type) [with data_type = signed char]	1
+maximum_minimum.cc:63:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MinimumOp::op(data_type, data_type) [with data_type = long int]	1
+maximum_minimum.cc:63:20:static data_type tflite::ops::micro::maximum_minimum::{anonymous}::MinimumOp::op(data_type, data_type) [with data_type = long long int]	2
+maximum_minimum.cc:44:3:tflite::ops::micro::maximum_minimum::{anonymous}::OpContext::OpContext(TfLiteContext*, TfLiteNode*)	1
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:50:8:bool tflite::RuntimeShape::operator==(const tflite::RuntimeShape&) const	2
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+types.h:299:12:int tflite::MatchingElementsSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	2
+common.h:925:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<5>&, int*)	1
+maximum_minimum.cc:116:20:TfLiteRegistration tflite::ops::micro::Register_MAXIMUM()	1
+maximum_minimum.cc:123:20:TfLiteRegistration tflite::ops::micro::Register_MINIMUM()	1
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 5]	2
+common.h:1008:13:void tflite::NdArrayDescsForElementwiseBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*) [with int N = 5]	6
+common.h:1104:51:typename std::enable_if<(DIM != (N - 1)), void>::type tflite::NDOpsHelperImpl(const tflite::NdArrayDesc<N>&, const Calc&, int*) [with int N = 5; int DIM = 3; Calc = tflite::reference_ops::MaximumMinimumBroadcastSlow<float, float (*)(float, float), 5>::<lambda(int*)>]	3
+maximum_minimum.h:25:6:void tflite::reference_ops::MaximumMinimumBroadcastSlow(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*, Op) [with T = float; Op = float (*)(float, float); int N = 5]	8
+common.h:1104:51:typename std::enable_if<(DIM != (N - 1)), void>::type tflite::NDOpsHelperImpl(const tflite::NdArrayDesc<N>&, const Calc&, int*) [with int N = 5; int DIM = 3; Calc = tflite::reference_ops::MaximumMinimumBroadcastSlow<signed char, signed char (*)(signed char, signed char), 5>::<lambda(int*)>]	3
+maximum_minimum.h:25:6:void tflite::reference_ops::MaximumMinimumBroadcastSlow(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*, Op) [with T = signed char; Op = signed char (*)(signed char, signed char); int N = 5]	8
+common.h:1104:51:typename std::enable_if<(DIM != (N - 1)), void>::type tflite::NDOpsHelperImpl(const tflite::NdArrayDesc<N>&, const Calc&, int*) [with int N = 5; int DIM = 3; Calc = tflite::reference_ops::MaximumMinimumBroadcastSlow<long int, long int (*)(long int, long int), 5>::<lambda(int*)>]	3
+maximum_minimum.h:25:6:void tflite::reference_ops::MaximumMinimumBroadcastSlow(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*, Op) [with T = long int; Op = long int (*)(long int, long int); int N = 5]	8
+common.h:1104:51:typename std::enable_if<(DIM != (N - 1)), void>::type tflite::NDOpsHelperImpl(const tflite::NdArrayDesc<N>&, const Calc&, int*) [with int N = 5; int DIM = 3; Calc = tflite::reference_ops::MaximumMinimumBroadcastSlow<long long int, long long int (*)(long long int, long long int), 5>::<lambda(int*)>]	3
+maximum_minimum.h:25:6:void tflite::reference_ops::MaximumMinimumBroadcastSlow(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*, Op) [with T = long long int; Op = long long int (*)(long long int, long long int); int N = 5]	8
+maximum_minimum.cc:84:14:TfLiteStatus tflite::ops::micro::maximum_minimum::Eval(TfLiteContext*, TfLiteNode*) [with tflite::ops::micro::maximum_minimum::{anonymous}::KernelType kernel_type = tflite::ops::micro::maximum_minimum::<unnamed>::kReference; OpType = tflite::ops::micro::maximum_minimum::{anonymous}::MinimumOp]	16
+maximum_minimum.cc:84:14:TfLiteStatus tflite::ops::micro::maximum_minimum::Eval(TfLiteContext*, TfLiteNode*) [with tflite::ops::micro::maximum_minimum::{anonymous}::KernelType kernel_type = tflite::ops::micro::maximum_minimum::<unnamed>::kReference; OpType = tflite::ops::micro::maximum_minimum::{anonymous}::MaximumOp]	16

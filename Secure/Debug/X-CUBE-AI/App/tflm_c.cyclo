@@ -1,0 +1,39 @@
+op_resolver.h:48:35:virtual tflite::OpResolver::TfLiteDelegatePtrVector tflite::OpResolver::GetDelegates(int) const	1
+op_resolver.h:67:34:virtual tflite::OpResolver::TfLiteDelegateCreators tflite::OpResolver::GetDelegateCreators() const	1
+op_resolver.h:96:40:virtual tflite::OpResolver::TfLiteOpaqueDelegateCreators tflite::OpResolver::GetOpaqueDelegateCreators() const	1
+op_resolver.h:114:16:virtual bool tflite::OpResolver::MayContainUserDefinedOps() const	1
+micro_op_resolver.h:47:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	1
+micro_op_resolver.h:54:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	1
+tflm_c.cc:321:46:void __tcf_0()	1
+micro_mutable_op_resolver.h:43:7:virtual tflite::MicroMutableOpResolver<6>::~MicroMutableOpResolver()	1
+tflm_c.cc:65:3:virtual CTfLiteProfiler::~CTfLiteProfiler()	1
+micro_mutable_op_resolver.h:72:36:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 6]	4
+micro_mutable_op_resolver.h:61:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 6]	4
+micro_mutable_op_resolver.h:49:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 6]	4
+micro_mutable_op_resolver.h:595:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, const TfLiteRegistration&, tflite::TfLiteBridgeBuiltinParseFunction) [with unsigned int tOpCount = 6]	4
+table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+schema_generated.h:13172:69:const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >* tflite::Model::subgraphs() const	2
+tflm_c.cc:224:14:TfLiteStatus CTfLiteInterpreterContext::tflitetensor_to(const TfLiteTensor*, tflm_c_tensor_info*, int32_t)	11
+tflm_c.cc:299:14:TfLiteStatus tflm_c_create(const uint8_t*, uint8_t*, uint32_t, uint32_t*)	10
+tflm_c.cc:355:14:TfLiteStatus tflm_c_destroy(uint32_t)	2
+tflm_c.cc:374:14:TfLiteStatus tflm_c_input(uint32_t, int32_t, tflm_c_tensor_info*)	1
+tflm_c.cc:379:14:TfLiteStatus tflm_c_output(uint32_t, int32_t, tflm_c_tensor_info*)	1
+tflm_c.cc:384:14:TfLiteStatus tflm_c_invoke(uint32_t)	1
+tflm_c.cc:389:14:TfLiteStatus tflm_c_reset_all_variables(uint32_t)	1
+tflm_c.cc:406:9:int32_t tflm_c_operator_codes_size(uint32_t)	1
+tflm_c.cc:412:9:int32_t tflm_c_arena_used_bytes(uint32_t)	1
+tflm_c.cc:418:13:const char* tflm_c_TfLiteTypeGetName(TfLiteType)	1
+tflm_c.cc:423:6:void tflm_c_rt_version(tflm_c_version*)	2
+tflm_c.cc:433:14:TfLiteStatus tflm_c_observer_register(uint32_t, tflm_c_observer_options*)	4
+tflm_c.cc:438:14:TfLiteStatus tflm_c_observer_unregister(uint32_t, tflm_c_observer_options*)	2
+tflm_c.cc:443:14:TfLiteStatus tflm_c_observer_start(uint32_t)	1
+tflm_c.cc:448:14:TfLiteStatus tflm_c_observer_info(uint32_t, tflm_c_profile_info*)	2
+tflm_c.cc:453:10:uint32_t CTfLiteProfiler::begin_event(const char*)	1
+tflm_c.cc:67:12:virtual uint32_t CTfLiteProfiler::BeginEvent(const char*)	2
+tflm_c.cc:464:6:void CTfLiteProfiler::end_event(uint32_t)	2
+tflm_c.cc:74:8:virtual void CTfLiteProfiler::EndEvent(uint32_t)	2
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::SubGraph>]	1
+tflm_c.cc:394:9:int32_t tflm_c_operators_size(uint32_t)	1
+tflm_c.cc:400:9:int32_t tflm_c_tensors_size(uint32_t)	1
+tflm_c.cc:368:9:int32_t tflm_c_outputs_size(uint32_t)	1
+tflm_c.cc:362:9:int32_t tflm_c_inputs_size(uint32_t)	1

@@ -1,0 +1,4 @@
+op_macros.h:24:13:void AbortImpl()	1
+read_variable.cc:56:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	3
+read_variable.cc:38:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	8
+read_variable.cc:83:20:TfLiteRegistration tflite::Register_READ_VARIABLE()	1

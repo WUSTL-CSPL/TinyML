@@ -1,0 +1,18 @@
+op_macros.h:24:13:void AbortImpl()	1
+depthwise_conv.cc:53:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+depthwise_conv.cc:288:6:void tflite::{anonymous}::EvalQuantizedPerChannel16x8(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	17
+depthwise_conv.cc:422:14:TfLiteStatus tflite::{anonymous}::EvalInt16x8(TfLiteContext*, TfLiteNode*)	4
+depthwise_conv.cc:252:6:void tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	18
+depthwise_conv.cc:398:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	4
+depthwiseconv_float.h:25:13:void tflite::reference_ops::DepthwiseConv(const tflite::DepthwiseParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	17
+depthwise_conv.h:25:13:void tflite::reference_integer_ops::DepthwiseConvPerChannel(const tflite::DepthwiseParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int8_t*)	22
+depthwise_conv.cc:321:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	15
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	2
+depthwise_conv.cc:58:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	26
+depthwise_conv.cc:448:20:TfLiteRegistration tflite::Register_DEPTHWISE_CONV_2D()	1
+depthwise_conv.cc:452:20:TfLiteRegistration tflite::Register_DEPTHWISE_CONV_2D_INT8()	1
+depthwise_conv.cc:456:20:TfLiteRegistration tflite::Register_DEPTHWISE_CONV_2D_INT16()	1

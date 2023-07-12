@@ -1,0 +1,7 @@
+transpose.cc:49:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	13
+op_macros.h:24:13:void AbortImpl()	1
+transpose.h:160:13:void tflite::reference_ops::transpose_internal::SetupTransposeStrides(std::array<int, 6>&, const int32_t*, int)	2
+transpose.cc:119:20:TfLiteRegistration tflite::Register_TRANSPOSE()	1
+transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = long int]	4
+transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = signed char]	4
+transpose.cc:75:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	5

@@ -1,0 +1,2 @@
+sub_common.cc:36:14:TfLiteStatus tflite::CalculateOpDataSub(TfLiteContext*, TfLiteSubParams*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, tflite::OpDataSub*)	3
+sub_common.cc:81:14:TfLiteStatus tflite::SubPrepare(TfLiteContext*, TfLiteNode*)	7

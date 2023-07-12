@@ -1,0 +1,16 @@
+op_macros.h:24:13:void AbortImpl()	1
+select.cc:40:7:void* tflite::SelectInit(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+types.h:333:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	9
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	2
+select.cc:49:14:TfLiteStatus tflite::CheckBroadcastShape(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteIntArray*)	14
+select.cc:78:14:TfLiteStatus tflite::SelectPrepare(TfLiteContext*, TfLiteNode*)	14
+select.cc:192:20:TfLiteRegistration tflite::Register_SELECT_V2()	1
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 5]	2
+common.h:1041:13:void tflite::NdArrayDescsForElementwiseBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*) [with int N = 5]	15
+select.h:78:6:void tflite::reference_ops::BroadcastSelect5DSlow(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = float]	10
+select.h:78:6:void tflite::reference_ops::BroadcastSelect5DSlow(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = signed char]	10
+select.h:78:6:void tflite::reference_ops::BroadcastSelect5DSlow(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = short int]	10
+select.cc:128:14:TfLiteStatus tflite::SelectEval(TfLiteContext*, TfLiteNode*)	45

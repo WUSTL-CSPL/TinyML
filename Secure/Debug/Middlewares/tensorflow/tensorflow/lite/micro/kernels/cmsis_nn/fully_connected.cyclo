@@ -1,0 +1,16 @@
+op_macros.h:24:13:void AbortImpl()	1
+fully_connected.cc:49:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+types.h:518:12:int tflite::FlatSizeSkipDim(const tflite::RuntimeShape&, int)	4
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	2
+fully_connected.cc:54:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	18
+fully_connected.cc:432:20:TfLiteRegistration tflite::Register_FULLY_CONNECTED()	1
+fully_connected.cc:436:20:TfLiteRegistration tflite::Register_FULLY_CONNECTED_INT8()	1
+fully_connected.cc:440:20:TfLiteRegistration tflite::Register_FULLY_CONNECTED_INT16()	1
+kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+fully_connected.cc:266:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedInt16(TfLiteContext*, TfLiteNode*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	5
+fully_connected.cc:407:14:TfLiteStatus tflite::{anonymous}::EvalInt16(TfLiteContext*, TfLiteNode*)	2
+fully_connected.cc:190:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedInt8(TfLiteContext*, TfLiteNode*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	10
+fully_connected.cc:304:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	29
+fully_connected.cc:384:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	2

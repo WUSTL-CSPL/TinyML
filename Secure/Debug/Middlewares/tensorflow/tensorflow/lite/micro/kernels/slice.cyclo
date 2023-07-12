@@ -1,0 +1,7 @@
+op_macros.h:24:13:void AbortImpl()	1
+slice.cc:47:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	18
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+runtime_shape.h:137:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int, int)	21
+slice.cc:84:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	42
+slice.cc:153:20:TfLiteRegistration tflite::Register_SLICE()	1

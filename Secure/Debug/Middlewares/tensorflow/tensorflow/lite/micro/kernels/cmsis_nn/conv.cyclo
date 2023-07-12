@@ -1,0 +1,16 @@
+op_macros.h:24:13:void AbortImpl()	1
+conv.cc:42:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+conv.cc:47:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	19
+conv.cc:255:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel16x8(TfLiteContext*, TfLiteNode*, const TfLiteConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	13
+conv.cc:373:14:TfLiteStatus tflite::{anonymous}::EvalInt16x8(TfLiteContext*, TfLiteNode*)	4
+conv.cc:155:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteConvParams&, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	13
+conv.cc:351:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	4
+conv.h:27:13:void tflite::reference_integer_ops::ConvPerChannel(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, int8_t*)	23
+conv.cc:395:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	35
+conv.cc:483:20:TfLiteRegistration tflite::Register_CONV_2D()	1
+conv.cc:487:20:TfLiteRegistration tflite::Register_CONV_2D_INT8()	1
+conv.cc:491:20:TfLiteRegistration tflite::Register_CONV_2D_INT16()	1

@@ -1,0 +1,4 @@
+op_macros.h:24:13:void AbortImpl()	1
+assign_variable.cc:71:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	3
+assign_variable.cc:38:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	11
+assign_variable.cc:97:20:TfLiteRegistration tflite::Register_ASSIGN_VARIABLE()	1

@@ -1,0 +1,6 @@
+softmax_common.cc:68:9:static float tflite::{anonymous}::InitializeLutForInt16(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, tflite::SoftmaxParams*)::<lambda(float)>::_FUN(float)	1
+softmax_common.cc:64:9:static float tflite::{anonymous}::InitializeLutForInt16(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, tflite::SoftmaxParams*)::<lambda(float)>::_FUN(float)	1
+softmax_common.cc:140:7:void* tflite::SoftmaxInit(TfLiteContext*, const char*, size_t)	2
+common.h:426:1:typename std::enable_if<std::is_same<T, short int>::value, void>::type tflite::LUTPopulate(FloatT, int32_t, FloatT, int32_t, FloatT (*)(FloatT), T*) [with T = short int; FloatT = float]	4
+softmax_common.cc:80:14:TfLiteStatus tflite::CalculateSoftmaxParams(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, const TfLiteSoftmaxParams*, tflite::SoftmaxParams*)	24
+softmax_common.cc:145:14:TfLiteStatus tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)	9

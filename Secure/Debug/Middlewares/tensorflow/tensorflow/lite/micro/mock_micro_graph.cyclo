@@ -1,0 +1,8 @@
+mock_micro_graph.cc:43:14:virtual TfLiteStatus tflite::MockMicroGraph::InvokeSubgraph(int)	1
+mock_micro_graph.cc:48:14:virtual TfLiteStatus tflite::MockMicroGraph::ResetVariableTensors()	1
+mock_micro_graph.cc:50:8:virtual size_t tflite::MockMicroGraph::NumSubgraphInputs(int)	1
+mock_micro_graph.cc:52:19:virtual TfLiteEvalTensor* tflite::MockMicroGraph::GetSubgraphInput(int, int)	1
+mock_micro_graph.cc:64:5:virtual int tflite::MockMicroGraph::NumSubgraphs()	1
+mock_micro_graph.h:29:7:tflite::MockMicroGraph::~MockMicroGraph()	1
+mock_micro_graph.h:29:7:virtual tflite::MockMicroGraph::~MockMicroGraph()	1
+mock_micro_graph.cc:22:1:tflite::MockMicroGraph::MockMicroGraph(tflite::SingleArenaBufferAllocator*)	1

@@ -1,0 +1,7 @@
+op_macros.h:24:13:void AbortImpl()	1
+common.h:253:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	5
+activation_utils.h:32:14:float tflite::ops::micro::ActivationValFloat(TfLiteFusedActivation, float)	8
+svdf_common.cc:200:6:void tflite::EvalInt16SvdfReference(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, TfLiteEvalTensor*, TfLiteEvalTensor*, const tflite::OpDataSvdf&)	17
+svdf_common.cc:214:6:void tflite::EvalInt8SvdfReference(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, TfLiteEvalTensor*, TfLiteEvalTensor*, const tflite::OpDataSvdf&)	17
+svdf_common.cc:289:6:void tflite::EvalFloatSvdfReference(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, int, TfLiteEvalTensor*, TfLiteEvalTensor*)	19
+svdf_common.cc:362:14:TfLiteStatus tflite::PrepareSvdf(TfLiteContext*, TfLiteNode*)	47

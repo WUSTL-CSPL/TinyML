@@ -1,0 +1,5 @@
+op_macros.h:24:13:void AbortImpl()	1
+types.h:312:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	4
+common.h:253:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	5
+quantize_common.cc:31:14:TfLiteStatus tflite::PrepareQuantizeReference(TfLiteContext*, TfLiteNode*)	30
+quantize_common.cc:92:14:TfLiteStatus tflite::EvalQuantizeReference(TfLiteContext*, TfLiteNode*)	38

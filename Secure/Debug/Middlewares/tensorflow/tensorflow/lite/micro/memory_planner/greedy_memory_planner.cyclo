@@ -1,0 +1,14 @@
+greedy_memory_planner.cc:63:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::Init(unsigned char*, int)	1
+greedy_memory_planner.cc:89:1:virtual tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()	1
+greedy_memory_planner.cc:109:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::AddBuffer(int, int, int, int)	2
+greedy_memory_planner.cc:396:5:virtual int tflite::GreedyMemoryPlanner::GetBufferCount()	1
+greedy_memory_planner.cc:93:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::AddBuffer(int, int, int)	2
+greedy_memory_planner.cc:43:6:void tflite::ReverseSortInPlace(int*, int*, int)	4
+greedy_memory_planner.cc:61:1:tflite::GreedyMemoryPlanner::GreedyMemoryPlanner()	1
+greedy_memory_planner.cc:120:6:bool tflite::GreedyMemoryPlanner::DoesEntryOverlapInTime(const tflite::GreedyMemoryPlanner::ListEntry*, int, int) const	2
+greedy_memory_planner.cc:135:1:tflite::GreedyMemoryPlanner::ListEntry* tflite::GreedyMemoryPlanner::NextSimultaneouslyActiveBuffer(const tflite::GreedyMemoryPlanner::ListEntry*, int, int)	5
+greedy_memory_planner.cc:163:6:void tflite::GreedyMemoryPlanner::CalculateOffsetsIfNeeded()	14
+greedy_memory_planner.cc:313:8:virtual size_t tflite::GreedyMemoryPlanner::GetMaximumMemorySize()	4
+greedy_memory_planner.cc:335:6:virtual void tflite::GreedyMemoryPlanner::PrintMemoryPlan()	16
+greedy_memory_planner.cc:398:14:virtual TfLiteStatus tflite::GreedyMemoryPlanner::GetOffsetForBuffer(int, int*)	3
+greedy_memory_planner.cc:410:6:bool tflite::GreedyMemoryPlanner::DoAnyBuffersOverlap()	8

@@ -1,0 +1,2 @@
+micro_log.cc:27:6:void Log(const char*, va_list)	1
+micro_log.cc:41:6:)	1

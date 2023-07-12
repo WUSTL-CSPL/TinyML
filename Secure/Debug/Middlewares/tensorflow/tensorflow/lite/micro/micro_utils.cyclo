@@ -1,0 +1,3 @@
+micro_utils.cc:30:5:int tflite::ElementCount(const TfLiteIntArray&)	2
+micro_utils.cc:38:8:size_t tflite::EvalTensorBytes(const TfLiteEvalTensor*)	2
+micro_utils.cc:45:6:void tflite::SignedSymmetricPerChannelQuantize(const float*, TfLiteIntArray*, int, int8_t*, float*, TfLiteType)	6

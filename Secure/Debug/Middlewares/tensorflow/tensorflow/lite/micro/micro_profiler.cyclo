@@ -1,0 +1,8 @@
+micro_profiler.cc:27:10:virtual uint32_t tflite::MicroProfiler::BeginEvent(const char*)	1
+micro_profiler.cc:40:6:virtual void tflite::MicroProfiler::EndEvent(uint32_t)	1
+micro_profiler.h:31:11:virtual tflite::MicroProfiler::~MicroProfiler()	1
+micro_profiler.cc:47:10:uint32_t tflite::MicroProfiler::GetTotalTicks() const	1
+micro_profiler.cc:59:6:void tflite::MicroProfiler::Log() const	1
+micro_profiler.cc:71:6:void tflite::MicroProfiler::LogCsv() const	1
+micro_profiler.cc:83:6:void tflite::MicroProfiler::LogTicksPerTagCsv()	1
+micro_profiler.cc:118:5:int tflite::MicroProfiler::FindExistingOrNextPosition(const char*)	1

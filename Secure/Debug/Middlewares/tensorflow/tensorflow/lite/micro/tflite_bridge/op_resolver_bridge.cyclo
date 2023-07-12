@@ -1,0 +1,1 @@
+op_resolver_bridge.cc:26:14:TfLiteStatus tflite::GetRegistrationFromOpCode(const tflite::OperatorCode*, const tflite::OpResolver&, const TfLiteRegistration**)	1

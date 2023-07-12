@@ -1,0 +1,2 @@
+arm_convolve_s16.c:51:21:arm_convolve_s16	18
+arm_convolve_s16.c:147:9:arm_convolve_s16_get_buffer_size	1

@@ -1,0 +1,46 @@
+micro_allocator.cc:59:9:virtual void* tflite::{anonymous}::MicroBuiltinDataAllocator::Allocate(size_t, size_t)	1
+micro_allocator.cc:63:8:virtual void tflite::{anonymous}::MicroBuiltinDataAllocator::Deallocate(void*)	1
+micro_allocator.cc:364:1:virtual tflite::MicroAllocator::~MicroAllocator()	1
+micro_allocator.cc:509:7:virtual void* tflite::MicroAllocator::AllocatePersistentBuffer(size_t)	1
+micro_allocator.cc:715:14:virtual TfLiteStatus tflite::MicroAllocator::ResetTempAllocations()	1
+micro_allocator.cc:719:6:virtual bool tflite::MicroAllocator::IsAllTempDeallocated()	1
+micro_allocator.cc:780:15:virtual TfLiteTensor* tflite::MicroAllocator::AllocatePersistentTfLiteTensorInternal()	1
+micro_allocator.cc:53:7:virtual tflite::{anonymous}::MicroBuiltinDataAllocator::~MicroBuiltinDataAllocator()	1
+table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+schema_generated.h:4156:37:const flatbuffers::Vector<float>* tflite::QuantizationParameters::scale() const	2
+schema_generated.h:4159:39:const flatbuffers::Vector<long long int>* tflite::QuantizationParameters::zero_point() const	2
+schema_generated.h:4842:22:tflite::TensorType tflite::Tensor::type() const	2
+schema_generated.h:4854:8:bool tflite::Tensor::is_variable() const	2
+schema_generated.h:12708:67:const flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> >* tflite::SubGraph::tensors() const	2
+schema_generated.h:13172:69:const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >* tflite::Model::subgraphs() const	2
+op_macros.h:24:13:void AbortImpl()	1
+micro_allocator.cc:652:6:virtual void tflite::MicroAllocator::DeallocateTempTfLiteTensor(TfLiteTensor*)	3
+micro_allocator.cc:885:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateScratchBufferHandles(tflite::ScratchBufferHandle**, size_t)	2
+micro_allocator.cc:163:7:void* tflite::internal::GetFlatbufferTensorBuffer(const tflite::Tensor&, const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*)	4
+micro_allocator.cc:313:14:TfLiteStatus tflite::internal::InitializeTfLiteEvalTensorFromFlatbuffer(const tflite::Tensor&, const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*, TfLiteEvalTensor*)	3
+micro_allocator.cc:337:8:static size_t tflite::MicroAllocator::GetDefaultTailUsage(bool)	2
+micro_allocator.cc:348:1:tflite::MicroAllocator::MicroAllocator(tflite::SingleArenaBufferAllocator*, tflite::MicroMemoryPlanner*)	2
+micro_allocator.cc:355:1:tflite::MicroAllocator::MicroAllocator(tflite::IPersistentBufferAllocator*, tflite::INonPersistentBufferAllocator*, tflite::MicroMemoryPlanner*)	1
+micro_allocator.cc:395:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(tflite::SingleArenaBufferAllocator*, tflite::MicroMemoryPlanner*)	2
+micro_allocator.cc:366:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(uint8_t*, size_t, tflite::MicroMemoryPlanner*)	1
+micro_allocator.cc:377:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(uint8_t*, size_t)	1
+micro_allocator.cc:408:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(uint8_t*, size_t, uint8_t*, size_t)	3
+micro_allocator.cc:585:8:size_t tflite::MicroAllocator::used_bytes() const	1
+micro_allocator.cc:904:14:TfLiteStatus tflite::MicroAllocator::InitScratchBufferData()	1
+micro_allocator.cc:439:22:tflite::SubgraphAllocations* tflite::MicroAllocator::StartModelAllocation(const tflite::Model*)	6
+micro_allocator.cc:923:33:tflite::internal::ScratchBufferRequest* tflite::MicroAllocator::GetScratchBufferRequests()	1
+micro_allocator.cc:514:14:TfLiteStatus tflite::MicroAllocator::RequestScratchBufferInArena(size_t, int, int*)	4
+micro_allocator.cc:555:14:TfLiteStatus tflite::MicroAllocator::FinishPrepareNodeAllocations(int)	4
+micro_allocator.cc:799:14:virtual TfLiteStatus tflite::MicroAllocator::CommitStaticMemoryPlan(const tflite::Model*, tflite::SubgraphAllocations*, tflite::ScratchBufferHandle*)	17
+micro_allocator.cc:928:35:tflite::TfLiteBridgeBuiltinDataAllocator* tflite::MicroAllocator::GetBuiltinDataAllocator()	1
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = long long int]	1
+micro_allocator.cc:193:14:TfLiteStatus tflite::internal::InitializeTfLiteTensorFromFlatbuffer(tflite::IPersistentBufferAllocator*, tflite::INonPersistentBufferAllocator*, bool, const tflite::Tensor&, const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*, TfLiteTensor*)	16
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::Tensor>]	1
+micro_allocator.cc:757:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateVariables(const tflite::SubGraph*, TfLiteEvalTensor*)	5
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::SubGraph>]	1
+micro_allocator.cc:479:14:TfLiteStatus tflite::MicroAllocator::FinishModelAllocation(const tflite::Model*, tflite::SubgraphAllocations*, tflite::ScratchBufferHandle**)	6
+micro_allocator.cc:590:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateNodeAndRegistrations(const tflite::Model*, tflite::SubgraphAllocations*)	4
+micro_allocator.cc:615:15:virtual TfLiteTensor* tflite::MicroAllocator::AllocatePersistentTfLiteTensor(const tflite::Model*, const tflite::SubgraphAllocations*, int, int)	3
+micro_allocator.cc:676:15:virtual TfLiteTensor* tflite::MicroAllocator::AllocateTempTfLiteTensor(const tflite::Model*, const tflite::SubgraphAllocations*, int, int)	3
+micro_allocator.cc:786:14:virtual TfLiteStatus tflite::MicroAllocator::PopulateTfLiteTensorFromFlatbuffer(const tflite::Model*, TfLiteTensor*, int, int, bool)	2
+micro_allocator.cc:723:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateTfLiteEvalTensors(const tflite::Model*, tflite::SubgraphAllocations*)	7

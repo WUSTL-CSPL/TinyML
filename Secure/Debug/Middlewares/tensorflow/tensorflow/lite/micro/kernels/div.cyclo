@@ -1,0 +1,24 @@
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	4
+op_macros.h:24:13:void AbortImpl()	1
+div.cc:68:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+div.cc:73:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	9
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+types.h:299:12:int tflite::MatchingElementsSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	2
+common.h:238:16:int32_t tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32_t, int32_t, int)	1
+common.h:925:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<5>&, int*)	1
+process_broadcast_shapes.h:40:13:bool tflite::reference_ops::ProcessBroadcastShapes(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::ArithmeticParams*)	18
+div.cc:204:20:TfLiteRegistration tflite::Register_DIV()	1
+fixedpoint.h:842:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	9
+common.h:813:16:int32_t tflite::GetReciprocal(int32_t, int, int*)	1
+div.h:27:13:void tflite::reference_ops::DivCheckArithmeticParams(const tflite::ArithmeticParams&) [with T = signed char]	4
+div.h:90:13:void tflite::reference_ops::Div(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*)	5
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 5]	2
+common.h:1008:13:void tflite::NdArrayDescsForElementwiseBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*) [with int N = 5]	6
+div.h:122:19:tflite::reference_ops::BroadcastDivSlowQuantized<signed char, 5>::<lambda(int*)>	3
+div.h:103:13:void tflite::reference_ops::BroadcastDivSlowQuantized(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char; int N = 5]	8
+div.cc:130:14:TfLiteStatus tflite::{anonymous}::EvalQuantized(TfLiteContext*, TfLiteNode*, TfLiteDivParams*, const tflite::{anonymous}::OpDataDiv*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	5
+common.h:1104:51:typename std::enable_if<(DIM != (N - 1)), void>::type tflite::NDOpsHelperImpl(const tflite::NdArrayDesc<N>&, const Calc&, int*) [with int N = 5; int DIM = 3; Calc = tflite::reference_ops::BroadcastDivSlow<float, 5>::<lambda(int*)>]	3
+div.cc:100:6:void tflite::{anonymous}::EvalDiv(TfLiteContext*, TfLiteNode*, TfLiteDivParams*, const tflite::{anonymous}::OpDataDiv*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	18
+div.cc:173:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	4

@@ -1,0 +1,22 @@
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:299:12:int tflite::MatchingElementsSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	2
+types.h:399:12:int tflite::MatchingExtendedShapeFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	6
+types.h:418:12:int tflite::MatchingExtendedShapeFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	1
+common.h:253:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	5
+common.h:915:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<4>&, int, int, int, int)	8
+process_broadcast_shapes.h:40:13:bool tflite::reference_ops::ProcessBroadcastShapes(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::ArithmeticParams*)	18
+mul_common.cc:33:7:void* tflite::MulInit(TfLiteContext*, const char*, size_t)	1
+mul_common.cc:38:14:TfLiteStatus tflite::CalculateOpDataMul(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, tflite::OpDataMul*)	18
+mul_common.cc:86:14:TfLiteStatus tflite::MulPrepare(TfLiteContext*, TfLiteNode*)	2
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	2
+common.h:1008:13:void tflite::NdArrayDescsForElementwiseBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*) [with int N = 4]	6
+mul.h:132:6:void tflite::reference_ops::BroadcastMul4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = long int]	11
+mul.h:132:6:void tflite::reference_ops::BroadcastMul4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	11
+mul_common.cc:176:6:void tflite::EvalMulFloatReference(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, const tflite::OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	8
+mul.h:91:13:void tflite::reference_integer_ops::BroadcastMul4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	8
+mul.h:91:13:void tflite::reference_integer_ops::BroadcastMul4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = short int]	8
+mul_common.cc:96:14:TfLiteStatus tflite::EvalMulQuantizedReference(TfLiteContext*, TfLiteNode*, const tflite::OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	26

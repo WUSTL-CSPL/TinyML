@@ -1,0 +1,6 @@
+add_n.cc:136:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	20
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+common.h:238:16:int32_t tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32_t, int32_t, int)	4
+add_n.cc:194:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	14
+add_n.cc:211:20:TfLiteRegistration tflite::Register_ADD_N()	1

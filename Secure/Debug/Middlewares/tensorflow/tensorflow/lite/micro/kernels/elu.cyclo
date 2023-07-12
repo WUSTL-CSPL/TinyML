@@ -1,0 +1,6 @@
+elu.cc:116:14:TfLiteStatus tflite::{anonymous}::EluPrepare(TfLiteContext*, TfLiteNode*)	11
+op_macros.h:24:13:void AbortImpl()	1
+elu.cc:108:7:void* tflite::{anonymous}::EluInit(TfLiteContext*, const char*, size_t)	1
+types.h:312:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	4
+elu.cc:120:14:TfLiteStatus tflite::{anonymous}::EluEval(TfLiteContext*, TfLiteNode*)	7
+elu.cc:147:20:TfLiteRegistration tflite::Register_ELU()	1

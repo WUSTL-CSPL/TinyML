@@ -1,0 +1,10 @@
+op_macros.h:24:13:void AbortImpl()	1
+prelu.cc:30:7:void* tflite::PreluInit(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+common.h:253:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	5
+common.h:915:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<4>&, int, int, int, int)	8
+prelu.cc:71:20:TfLiteRegistration tflite::Register_PRELU()	1
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	2
+prelu.h:30:13:void tflite::reference_ops::BroadcastPrelu4DSlow(const tflite::PreluParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	18
+prelu.cc:35:14:TfLiteStatus tflite::PreluEval(TfLiteContext*, TfLiteNode*)	7

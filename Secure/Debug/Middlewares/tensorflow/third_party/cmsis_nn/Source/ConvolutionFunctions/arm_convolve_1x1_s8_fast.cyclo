@@ -1,0 +1,2 @@
+arm_convolve_1x1_s8_fast.c:51:21:arm_convolve_1x1_s8_fast	5
+arm_convolve_1x1_s8_fast.c:134:9:arm_convolve_1x1_s8_fast_get_buffer_size	1

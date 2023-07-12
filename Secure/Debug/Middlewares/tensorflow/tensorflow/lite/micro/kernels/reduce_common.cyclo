@@ -1,0 +1,26 @@
+reduce_common.cc:279:7:static float tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	1
+reduce_common.cc:332:7:static float tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	1
+reduce.h:149:18:static float tflite::reference_ops::ReduceSumImpl<float, float>::<lambda(float, float)>::_FUN(float, float)	1
+reduce.h:149:18:static long int tflite::reference_ops::ReduceSumImpl<signed char, long int>::<lambda(long int, signed char)>::_FUN(long int, signed char)	1
+reduce.h:149:18:static long int tflite::reference_ops::ReduceSumImpl<short int, long int>::<lambda(long int, short int)>::_FUN(long int, short int)	1
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:160:13:bool tflite::NextIndex(int, const int*, int*)	6
+types.h:187:15:size_t tflite::ReducedOutputOffset(int, const int*, const int*, int, const int*)	7
+reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = short int; Out = long int]	2
+reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = signed char; Out = long int]	2
+reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = float; Out = float]	2
+reduce.h:109:13:bool tflite::reference_ops::ResolveAxis(int, const int*, int64_t, int*, int*)	7
+reduce.h:180:13:bool tflite::reference_ops::ReduceGeneric(const T*, const int*, int, T*, const int*, int, const int*, int64_t, bool, int*, int*, T, T (*)(T, T)) [with T = float]	8
+reduce_common.cc:34:14:TfLiteStatus tflite::PrepareSimple(TfLiteContext*, TfLiteNode*, int32_t*, int*)	6
+reduce_common.cc:67:14:TfLiteStatus tflite::PrepareMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	3
+reduce_common.cc:93:14:TfLiteStatus tflite::PrepareMeanOrSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	8
+reduce_common.cc:127:6:void tflite::ResolveAxis(const int*, int, tflite::MeanParams*)	3
+kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = int]	1
+reduce_common.cc:262:14:TfLiteStatus tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	14
+reduce_common.cc:140:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = short int]	17
+reduce_common.cc:140:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = signed char]	17
+reduce_common.cc:316:14:TfLiteStatus tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	6
+reduce.h:272:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	19
+reduce_common.cc:201:14:TfLiteStatus tflite::EvalMeanHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	49

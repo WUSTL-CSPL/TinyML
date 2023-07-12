@@ -1,0 +1,9 @@
+fixedpoint.h:342:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = short int]	4
+op_macros.h:24:13:void AbortImpl()	1
+hard_swish.cc:33:7:void* tflite::{anonymous}::HardSwishInit(TfLiteContext*, const char*, size_t)	1
+types.h:312:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	4
+hard_swish.h:27:16:int16_t tflite::reference_ops::SaturatingLeftShift(int16_t, int)	3
+hard_swish.cc:70:20:TfLiteRegistration tflite::Register_HARD_SWISH()	1
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = short int]	1
+hard_swish.h:61:13:void tflite::reference_ops::HardSwish(const tflite::HardSwishParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	6
+hard_swish.cc:38:14:TfLiteStatus tflite::{anonymous}::HardSwishEval(TfLiteContext*, TfLiteNode*)	6

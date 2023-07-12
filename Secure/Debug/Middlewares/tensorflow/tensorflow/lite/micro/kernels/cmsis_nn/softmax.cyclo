@@ -1,0 +1,15 @@
+op_macros.h:24:13:void AbortImpl()	1
+softmax.cc:38:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+softmax.cc:134:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt8(TfLiteContext*, TfLiteNode*)	3
+softmax.cc:168:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt16(TfLiteContext*, TfLiteNode*)	4
+softmax.cc:151:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt8_Int16(TfLiteContext*, TfLiteNode*)	3
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+types.h:530:12:int tflite::MatchingFlatSizeSkipDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&)	7
+softmax.cc:44:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	9
+softmax.h:31:13:void tflite::reference_ops::Softmax(const tflite::SoftmaxParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	5
+softmax.cc:78:14:TfLiteStatus tflite::{anonymous}::SoftmaxEval(TfLiteContext*, TfLiteNode*)	8
+softmax.cc:193:20:TfLiteRegistration tflite::Register_SOFTMAX()	1
+softmax.cc:197:20:TfLiteRegistration tflite::Register_SOFTMAX_INT8()	1
+softmax.cc:201:20:TfLiteRegistration tflite::Register_SOFTMAX_INT8_INT16()	1
+softmax.cc:205:20:TfLiteRegistration tflite::Register_SOFTMAX_INT16()	1

@@ -1,0 +1,3 @@
+stm32l5xx_ll_ucpd.c:79:13:LL_UCPD_DeInit	2
+stm32l5xx_ll_ucpd.c:115:13:LL_UCPD_Init	2
+stm32l5xx_ll_ucpd.c:143:6:LL_UCPD_StructInit	1

@@ -1,0 +1,4 @@
+logical.cc:26:14:TfLiteStatus tflite::{anonymous}::LogicalOrEval(TfLiteContext*, TfLiteNode*)	1
+logical.cc:30:14:TfLiteStatus tflite::{anonymous}::LogicalAndEval(TfLiteContext*, TfLiteNode*)	1
+logical.cc:36:20:TfLiteRegistration tflite::Register_LOGICAL_OR()	1
+logical.cc:40:20:TfLiteRegistration tflite::Register_LOGICAL_AND()	1

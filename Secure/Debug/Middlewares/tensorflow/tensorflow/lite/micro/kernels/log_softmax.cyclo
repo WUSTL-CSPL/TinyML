@@ -1,0 +1,17 @@
+common.h:644:13:IntegerType tflite::SaturatingRoundingMultiplyByPOTParam(IntegerType, int) [with IntegerType = long int]	3
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	4
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+types.h:518:12:int tflite::FlatSizeSkipDim(const tflite::RuntimeShape&, int)	4
+log_softmax.cc:101:14:TfLiteStatus tflite::{anonymous}::LogSoftmaxPrepare(TfLiteContext*, TfLiteNode*)	12
+log_softmax.cc:144:20:TfLiteRegistration tflite::Register_LOG_SOFTMAX()	1
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	1
+common.h:253:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	2
+fixedpoint.h:687:47:typename FixedPointType::ScalarRawType gemmlowp::RescaleConstantInitializer(int32_t) [with FixedPointType = gemmlowp::FixedPoint<long int, 0>]	1
+fixedpoint.h:539:55:gemmlowp::FixedPoint<tRawType, (tIntegerBits_a + tIntegerBits_b)> gemmlowp::operator*(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>, gemmlowp::FixedPoint<tRawType, tIntegerBits_b>) [with tRawType = long int; int tIntegerBits_a = 0; int tIntegerBits_b = 0]	1
+fixedpoint.h:721:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	1
+fixedpoint.h:746:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_negative_values(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = long int; int tIntegerBits = 5]	1
+fixedpoint.h:385:22:static IntegerType gemmlowp::ImplSaturatingRoundingMultiplyByPOT<Exponent, IntegerType, 1>::eval(IntegerType) [with int Exponent = 1; IntegerType = long int]	4
+fixedpoint.h:842:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	6
+common.h:719:1:gemmlowp::FixedPoint<long int, OutputIntegerBits> tflite::log_x_for_x_greater_than_or_equal_to_1_impl(gemmlowp::FixedPoint<long int, InputIntegerBits>) [with int OutputIntegerBits = 5; int InputIntegerBits = 12]	8
+log_softmax.cc:105:14:TfLiteStatus tflite::{anonymous}::LogSoftmaxEval(TfLiteContext*, TfLiteNode*)	20

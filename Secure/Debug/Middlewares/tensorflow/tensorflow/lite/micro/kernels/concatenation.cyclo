@@ -1,0 +1,15 @@
+op_macros.h:24:13:void AbortImpl()	1
+concatenation.cc:108:7:void* tflite::ops::micro::concatenation::Init(TfLiteContext*, const char*, size_t)	1
+concatenation.cc:113:14:TfLiteStatus tflite::ops::micro::concatenation::Prepare(TfLiteContext*, TfLiteNode*)	19
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+concatenation.cc:54:13:void tflite::ops::micro::concatenation::GetAllInputTensorShapes(const TfLiteContext*, const TfLiteNode*, tflite::RuntimeShape*)	3
+concatenation.cc:67:13:void tflite::ops::micro::concatenation::GetShapesPointers(const tflite::RuntimeShape*, size_t, const tflite::RuntimeShape**)	2
+concatenation.cc:256:20:TfLiteRegistration tflite::ops::micro::Register_CONCATENATION()	1
+concatenation.cc:88:6:void tflite::ops::micro::concatenation::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = float]	16
+concatenation.cc:88:6:void tflite::ops::micro::concatenation::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = long int]	16
+concatenation.cc:88:6:void tflite::ops::micro::concatenation::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = signed char]	16
+concatenation.cc:88:6:void tflite::ops::micro::concatenation::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = long long int]	16
+concatenation.cc:88:6:void tflite::ops::micro::concatenation::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = short int]	16
+concatenation.cc:88:6:void tflite::ops::micro::concatenation::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = bool]	16
+concatenation.cc:219:14:TfLiteStatus tflite::ops::micro::concatenation::Eval(TfLiteContext*, TfLiteNode*)	8

@@ -1,0 +1,11 @@
+fake_micro_context.cc:41:15:virtual TfLiteTensor* tflite::FakeMicroContext::AllocateTempTfLiteTensor(int)	1
+fake_micro_context.cc:46:6:virtual void tflite::FakeMicroContext::DeallocateTempTfLiteTensor(TfLiteTensor*)	1
+fake_micro_context.cc:68:7:virtual void* tflite::FakeMicroContext::AllocatePersistentBuffer(size_t)	1
+fake_micro_context.h:24:7:tflite::FakeMicroContext::~FakeMicroContext()	1
+fake_micro_context.h:24:7:virtual tflite::FakeMicroContext::~FakeMicroContext()	1
+op_macros.h:24:13:void AbortImpl()	1
+fake_micro_context.cc:54:19:virtual TfLiteEvalTensor* tflite::FakeMicroContext::GetEvalTensor(int)	1
+fake_micro_context.cc:77:14:virtual TfLiteStatus tflite::FakeMicroContext::RequestScratchBufferInArena(size_t, int*)	3
+fake_micro_context.cc:98:7:virtual void* tflite::FakeMicroContext::GetScratchBuffer(int)	2
+fake_micro_context.cc:32:1:tflite::FakeMicroContext::FakeMicroContext(TfLiteTensor*, tflite::SingleArenaBufferAllocator*, tflite::MicroGraph*)	1
+fake_micro_context.cc:50:6:bool tflite::FakeMicroContext::IsAllTempTfLiteTensorDeallocated()	1

@@ -1,0 +1,9 @@
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+logical_common.cc:59:6:bool tflite::LogicalOr(bool, bool)	1
+logical_common.cc:61:6:bool tflite::LogicalAnd(bool, bool)	1
+binary_function.h:75:13:void tflite::reference_ops::BinaryFunction(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = bool; T1 = bool; T2 = bool]	8
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	2
+binary_function.h:30:13:void tflite::reference_ops::BroadcastBinaryFunction4DSlow(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = bool; T1 = bool; T2 = bool]	15
+logical_common.cc:29:14:TfLiteStatus tflite::LogicalImpl(TfLiteContext*, TfLiteNode*, bool (*)(bool, bool))	7

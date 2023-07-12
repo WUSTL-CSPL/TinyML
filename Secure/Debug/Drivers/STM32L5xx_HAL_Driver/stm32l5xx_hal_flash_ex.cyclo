@@ -1,0 +1,14 @@
+stm32l5xx_hal_flash_ex.c:168:19:HAL_FLASHEx_Erase	12
+stm32l5xx_hal_flash_ex.c:238:19:HAL_FLASHEx_Erase_IT	9
+stm32l5xx_hal_flash_ex.c:304:19:HAL_FLASHEx_OBProgram	40
+stm32l5xx_hal_flash_ex.c:389:6:HAL_FLASHEx_OBGetConfig	13
+stm32l5xx_hal_flash_ex.c:443:19:HAL_FLASHEx_ConfigBBAttributes	3
+stm32l5xx_hal_flash_ex.c:500:6:HAL_FLASHEx_GetConfigBBAttributes	2
+stm32l5xx_hal_flash_ex.c:538:6:HAL_FLASHEx_EnableSecHideProtection	3
+stm32l5xx_hal_flash_ex.c:583:6:HAL_FLASHEx_ConfigPrivMode	1
+stm32l5xx_hal_flash_ex.c:599:10:HAL_FLASHEx_GetPrivMode	1
+stm32l5xx_hal_flash_ex.c:615:19:HAL_FLASHEx_ConfigSecInversion	3
+stm32l5xx_hal_flash_ex.c:647:10:HAL_FLASHEx_GetSecInversion	1
+stm32l5xx_hal_flash_ex.c:663:19:HAL_FLASHEx_ConfigLVEPin	4
+stm32l5xx_hal_flash_ex.c:715:10:HAL_FLASHEx_GetLVEPin	1
+stm32l5xx_hal_flash_ex.c:798:6:FLASH_PageErase	3

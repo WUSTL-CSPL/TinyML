@@ -1,0 +1,23 @@
+op_macros.h:24:13:void AbortImpl()	1
+add.cc:252:7:void* tflite::InitAdd(TfLiteContext*, const char*, size_t)	1
+add.cc:257:14:TfLiteStatus tflite::PrepareAdd(TfLiteContext*, TfLiteNode*)	16
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:299:12:int tflite::MatchingElementsSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	2
+common.h:238:16:int32_t tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32_t, int32_t, int)	4
+common.h:915:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<4>&, int, int, int, int)	8
+process_broadcast_shapes.h:40:13:bool tflite::reference_ops::ProcessBroadcastShapes(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::ArithmeticParams*)	18
+add.cc:359:20:TfLiteRegistration tflite::Register_ADD()	1
+add.cc:363:20:TfLiteRegistration tflite::Register_ADD_INT8()	1
+add.cc:367:20:TfLiteRegistration tflite::Register_ADD_INT16()	1
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	2
+common.h:1008:13:void tflite::NdArrayDescsForElementwiseBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*) [with int N = 4]	6
+add.h:199:1:typename std::enable_if<(! tflite::is_small_integer<T>::value), void>::type tflite::reference_ops::BroadcastAdd4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	8
+add.h:244:1:typename std::enable_if<tflite::is_small_integer<T>::value, void>::type tflite::reference_ops::BroadcastAdd4DSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = short int]	8
+add.cc:163:14:TfLiteStatus tflite::{anonymous}::EvalAddQuantizedInt16(TfLiteContext*, TfLiteNode*, TfLiteAddParams*, const tflite::{anonymous}::OpData*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	7
+add.cc:339:14:TfLiteStatus tflite::EvalAddInt16(TfLiteContext*, TfLiteNode*)	2
+add.cc:124:14:TfLiteStatus tflite::{anonymous}::EvalAddQuantizedInt8(TfLiteContext*, TfLiteNode*, TfLiteAddParams*, const tflite::{anonymous}::OpData*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	15
+add.cc:319:14:TfLiteStatus tflite::EvalAddInt8(TfLiteContext*, TfLiteNode*)	2
+add.cc:292:14:TfLiteStatus tflite::EvalAdd(TfLiteContext*, TfLiteNode*)	10

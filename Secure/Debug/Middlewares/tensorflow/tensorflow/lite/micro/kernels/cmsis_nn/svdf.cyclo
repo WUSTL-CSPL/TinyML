@@ -1,0 +1,7 @@
+op_macros.h:24:13:void AbortImpl()	1
+svdf.cc:35:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+svdf.cc:40:14:TfLiteStatus tflite::{anonymous}::EvalIntegerSVDF(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, TfLiteEvalTensor*, TfLiteEvalTensor*, const tflite::OpDataSvdf&)	6
+svdf.cc:142:14:TfLiteStatus tflite::{anonymous}::EvalSvdf(TfLiteContext*, TfLiteNode*)	6
+svdf.cc:185:14:TfLiteStatus tflite::{anonymous}::EvalSvdfInt8(TfLiteContext*, TfLiteNode*)	5
+svdf.cc:216:20:TfLiteRegistration tflite::Register_SVDF()	1
+svdf.cc:220:20:TfLiteRegistration tflite::Register_SVDF_INT8()	1

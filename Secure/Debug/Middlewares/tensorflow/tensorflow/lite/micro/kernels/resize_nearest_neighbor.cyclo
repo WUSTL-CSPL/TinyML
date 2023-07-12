@@ -1,0 +1,12 @@
+resize_nearest_neighbor.cc:35:14:TfLiteStatus tflite::ops::micro::resize_nearest_neighbor::Prepare(TfLiteContext*, TfLiteNode*)	10
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+resize_nearest_neighbor.h:28:16:int32_t tflite::reference_ops::GetNearestNeighbor(int, int32_t, int32_t, bool, bool)	5
+resize_nearest_neighbor.cc:119:20:TfLiteRegistration tflite::ops::micro::Register_RESIZE_NEAREST_NEIGHBOR()	1
+resize_nearest_neighbor.h:50:13:void tflite::reference_ops::ResizeNearestNeighbor(const tflite::ResizeNearestNeighborParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = long int]	9
+resize_nearest_neighbor.h:50:13:void tflite::reference_ops::ResizeNearestNeighbor(const tflite::ResizeNearestNeighborParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = signed char]	9
+resize_nearest_neighbor.h:50:13:void tflite::reference_ops::ResizeNearestNeighbor(const tflite::ResizeNearestNeighborParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = short int]	9
+resize_nearest_neighbor.cc:69:14:TfLiteStatus tflite::ops::micro::resize_nearest_neighbor::Eval(TfLiteContext*, TfLiteNode*)	9

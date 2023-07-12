@@ -1,0 +1,9 @@
+reduce.cc:31:7:void* tflite::InitReduce(TfLiteContext*, const char*, size_t)	1
+reduce.cc:35:14:TfLiteStatus tflite::PrepareMax(TfLiteContext*, TfLiteNode*)	1
+reduce.cc:40:14:TfLiteStatus tflite::PrepareMeanOrSum(TfLiteContext*, TfLiteNode*)	1
+reduce.cc:45:14:TfLiteStatus tflite::EvalMean(TfLiteContext*, TfLiteNode*)	1
+reduce.cc:50:14:TfLiteStatus tflite::EvalMax(TfLiteContext*, TfLiteNode*)	1
+reduce.cc:55:14:TfLiteStatus tflite::EvalSum(TfLiteContext*, TfLiteNode*)	1
+reduce.cc:60:20:TfLiteRegistration tflite::Register_MEAN()	1
+reduce.cc:64:20:TfLiteRegistration tflite::Register_REDUCE_MAX()	1
+reduce.cc:68:20:TfLiteRegistration tflite::Register_SUM()	1

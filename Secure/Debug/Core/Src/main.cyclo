@@ -1,0 +1,9 @@
+main.c:94:5:write2sd	2
+main.c:106:5:check_wait_write_DMA	2
+main.c:114:5:read2sd	2
+main.c:126:5:check_wait_read_DMA	2
+main.c:289:6:SystemClock_Config	4
+main.c:352:6:PeriphCommonClock_Config	2
+main.c:139:5:main	22
+main.c:589:6:MX_USART1_UART_Init	5
+main.c:698:6:Error_Handler	1

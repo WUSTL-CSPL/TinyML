@@ -1,0 +1,8 @@
+op_macros.h:24:13:void AbortImpl()	1
+types.h:312:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	4
+activations_common.cc:36:6:void tflite::ReluQuantized(const tflite::ReluOpData&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, const int8_t*, int8_t*)	6
+activations_common.cc:82:6:void tflite::ReluFloat(const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	2
+activations_common.cc:93:6:void tflite::Relu6Float(const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	3
+activations_common.cc:105:6:void tflite::Relu6Quantized(int8_t, int8_t, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*)	3
+activations_common.cc:116:14:TfLiteStatus tflite::ReluPrepare(TfLiteContext*, TfLiteNode*)	4
+activations_common.cc:138:14:TfLiteStatus tflite::Relu6Prepare(TfLiteContext*, TfLiteNode*)	3

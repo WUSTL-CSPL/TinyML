@@ -1,0 +1,20 @@
+micro_graph.cc:53:1:virtual tflite::MicroGraph::~MicroGraph()	1
+micro_graph.cc:55:14:virtual TfLiteStatus tflite::MicroGraph::InitSubgraphs()	5
+micro_graph.cc:119:14:virtual TfLiteStatus tflite::MicroGraph::FreeSubgraphs()	5
+micro_graph.cc:30:13:const char* tflite::{anonymous}::OpNameFromRegistration(const TfLiteRegistration*)	3
+micro_graph.cc:89:14:virtual TfLiteStatus tflite::MicroGraph::PrepareSubgraphs()	5
+table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+schema_generated.h:13172:69:const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >* tflite::Model::subgraphs() const	2
+micro_graph.cc:219:5:virtual int tflite::MicroGraph::NumSubgraphs()	1
+micro_profiler.h:129:3:tflite::ScopedMicroProfiler::~ScopedMicroProfiler()	2
+micro_graph.cc:145:14:virtual TfLiteStatus tflite::MicroGraph::InvokeSubgraph(int)	7
+micro_graph.cc:40:1:tflite::MicroGraph::MicroGraph(TfLiteContext*, const tflite::Model*, tflite::MicroAllocator*, tflite::MicroResourceVariables*)	2
+micro_graph.cc:221:6:void tflite::MicroGraph::SetSubgraphAllocations(tflite::SubgraphAllocations*)	1
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = long int]	1
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::SubGraph>]	1
+micro_graph.cc:192:14:virtual TfLiteStatus tflite::MicroGraph::ResetVariableTensors()	10
+table.h:50:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*]	2
+micro_graph.cc:230:19:virtual TfLiteEvalTensor* tflite::MicroGraph::GetSubgraphInput(int, int)	1
+micro_graph.cc:241:19:virtual TfLiteEvalTensor* tflite::MicroGraph::GetSubgraphOutput(int, int)	1
+micro_graph.cc:237:8:virtual size_t tflite::MicroGraph::NumSubgraphOutputs(int)	1
+micro_graph.cc:226:8:virtual size_t tflite::MicroGraph::NumSubgraphInputs(int)	1

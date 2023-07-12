@@ -1,0 +1,3 @@
+op_macros.h:24:13:void AbortImpl()	1
+common.h:680:13:void tflite::DownScaleInt32ToInt16Multiplier(int32_t, int16_t*)	4
+hard_swish_common.cc:34:14:TfLiteStatus tflite::HardSwishPrepare(TfLiteContext*, TfLiteNode*)	9

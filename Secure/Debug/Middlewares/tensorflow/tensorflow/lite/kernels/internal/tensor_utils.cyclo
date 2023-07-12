@@ -1,0 +1,41 @@
+portable_tensor_utils.h:28:6:bool tflite::tensor_utils::IsZeroVector(const float*, int)	3
+portable_tensor_utils.h:33:6:bool tflite::tensor_utils::IsZeroVector(const int8_t*, int)	3
+portable_tensor_utils.h:37:6:void tflite::tensor_utils::SymmetricQuantizeFloats(const float*, int, int8_t*, float*, float*, float*)	1
+portable_tensor_utils.h:44:6:void tflite::tensor_utils::SymmetricQuantizeFloats(const float*, int, int8_t*, float, float, float*)	1
+portable_tensor_utils.h:51:6:void tflite::tensor_utils::AsymmetricQuantizeFloats(const float*, int, int8_t*, float*, int32_t*)	1
+portable_tensor_utils.h:58:6:void tflite::tensor_utils::MatrixBatchVectorMultiplyAccumulate(const float*, int, int, const float*, int, float*)	1
+portable_tensor_utils.h:65:6:void tflite::tensor_utils::MatrixBatchVectorMultiplyAccumulate(const int8_t*, int, int, const int8_t*, const float*, int, float*)	1
+portable_tensor_utils.h:75:6:void tflite::tensor_utils::MatrixBatchVectorMultiplyAccumulate(const int8_t*, int, int, const int8_t*, const float*, int, float*, const float*, const int32_t*, int32_t*, int32_t*, bool*, tflite::CpuBackendContext*)	1
+portable_tensor_utils.h:87:6:void tflite::tensor_utils::MatrixBatchVectorMultiplyAccumulate(const int8_t*, int, int, const int8_t*, const float*, int, int32_t*, float*, tflite::CpuBackendContext*)	1
+portable_tensor_utils.h:98:6:void tflite::tensor_utils::SparseMatrixBatchVectorMultiplyAccumulate1x4(const float*, const int32_t*, const int32_t*, int, int, const float*, int, float*)	1
+portable_tensor_utils.h:106:6:void tflite::tensor_utils::SparseMatrixBatchVectorMultiplyAccumulate(const float*, const uint8_t*, int, int, const float*, int, float*)	1
+portable_tensor_utils.h:114:6:void tflite::tensor_utils::SparseMatrixBatchVectorMultiplyAccumulate1x16(const int8_t*, const int32_t*, const int32_t*, int, int, const int8_t*, const int32_t*, int, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int8_t*)	1
+portable_tensor_utils.h:129:6:void tflite::tensor_utils::SparseMatrixBatchVectorMultiplyAccumulate(const int8_t*, const uint8_t*, int, int, const int8_t*, const float*, int, float*)	1
+portable_tensor_utils.h:138:6:void tflite::tensor_utils::MatrixBatchVectorMultiplyAccumulate(const int8_t*, const int32_t*, const int8_t*, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t*, int16_t*, tflite::CpuBackendContext*)	1
+portable_tensor_utils.h:148:6:void tflite::tensor_utils::MatrixBatchVectorMultiplyAccumulate(const int8_t*, const int32_t*, const int8_t*, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t*, int8_t*, tflite::CpuBackendContext*)	1
+portable_tensor_utils.h:158:6:void tflite::tensor_utils::MatrixScalarMultiplyAccumulate(const int8_t*, int32_t, int32_t, int32_t, int32_t*)	1
+portable_tensor_utils.h:164:6:void tflite::tensor_utils::MatrixBatchVectorMultiply(const int8_t*, int32_t, const int8_t*, int32_t, int32_t, int32_t, int32_t, int32_t, int8_t*, int8_t)	1
+portable_tensor_utils.h:176:6:void tflite::tensor_utils::MatrixBatchVectorMultiply(const int16_t*, const int8_t*, int32_t, int32_t, const int32_t*, int32_t, int32_t, int32_t, int32_t, int8_t*)	1
+portable_tensor_utils.h:189:6:void tflite::tensor_utils::ApplyLayerNorm(const int16_t*, const int16_t*, const int32_t*, int32_t, int32_t, int32_t, int, int, int16_t*)	1
+portable_tensor_utils.h:198:6:void tflite::tensor_utils::ApplyLayerNormFloat(const int16_t*, const int16_t*, int32_t, int32_t, const int32_t*, int, int, int16_t*)	1
+portable_tensor_utils.h:208:6:void tflite::tensor_utils::ApplySigmoid(const int16_t*, int32_t, int32_t, int16_t*)	1
+portable_tensor_utils.h:213:6:void tflite::tensor_utils::ApplySigmoidFloat(const int16_t*, int32_t, int32_t, int16_t*)	1
+portable_tensor_utils.h:218:6:void tflite::tensor_utils::ApplyTanh(int32_t, const int16_t*, int32_t, int32_t, int16_t*)	1
+portable_tensor_utils.h:223:6:void tflite::tensor_utils::ApplyTanhFloat(const int16_t*, int32_t, int32_t, int32_t, int16_t*)	1
+portable_tensor_utils.h:228:6:void tflite::tensor_utils::CwiseMul(const int16_t*, const int16_t*, int, int, int, int16_t*)	1
+portable_tensor_utils.h:233:6:void tflite::tensor_utils::CwiseMul(const int16_t*, const int16_t*, int32_t, int32_t, int32_t, int32_t, int32_t, int8_t*)	1
+portable_tensor_utils.h:240:6:void tflite::tensor_utils::CwiseAdd(const int16_t*, const int16_t*, int, int, int16_t*)	1
+portable_tensor_utils.h:245:6:void tflite::tensor_utils::CwiseClipping(float*, int, float)	2
+portable_tensor_utils.h:250:6:void tflite::tensor_utils::CwiseClipping(int16_t*, int, int16_t)	2
+portable_tensor_utils.h:255:6:void tflite::tensor_utils::CwiseClipping(int8_t*, int, int8_t)	2
+portable_tensor_utils.h:260:6:void tflite::tensor_utils::VectorBatchVectorCwiseProductAccumulate(const int16_t*, int, const int16_t*, int, int32_t, int, int16_t*)	1
+portable_tensor_utils.h:268:7:float tflite::tensor_utils::VectorVectorDotProduct(const float*, const float*, int)	1
+portable_tensor_utils.h:273:6:void tflite::tensor_utils::BatchVectorBatchVectorDotProduct(const int16_t*, const int16_t*, int, int, int32_t*)	1
+portable_tensor_utils.h:280:6:void tflite::tensor_utils::Sub1Vector(const float*, int, float*)	1
+portable_tensor_utils.h:284:6:void tflite::tensor_utils::Sub1Vector(const int16_t*, int, int16_t*)	1
+portable_tensor_utils.h:289:6:void tflite::tensor_utils::VectorScalarMultiply(const int8_t*, int, float, float*)	1
+portable_tensor_utils.h:294:6:void tflite::tensor_utils::ReductionSumVector(const float*, float*, int, int)	3
+portable_tensor_utils.h:300:6:void tflite::tensor_utils::ReductionSumVector(const int32_t*, int32_t*, int, int)	3
+portable_tensor_utils.h:306:6:void tflite::tensor_utils::ReductionSumVector(const int8_t*, int32_t*, int, int)	3
+portable_tensor_utils.h:312:6:void tflite::tensor_utils::MeanStddevNormalization(const float*, float*, int, int)	1
+portable_tensor_utils.h:317:6:void tflite::tensor_utils::TwoGateSaturatingAdd(const int8_t*, int8_t, const int8_t*, int8_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int16_t*)	1

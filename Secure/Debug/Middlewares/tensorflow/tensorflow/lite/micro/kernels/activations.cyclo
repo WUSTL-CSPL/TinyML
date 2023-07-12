@@ -1,0 +1,7 @@
+op_macros.h:24:13:void AbortImpl()	1
+activations.cc:33:7:void* tflite::{anonymous}::ReluInit(TfLiteContext*, const char*, size_t)	1
+activations.cc:71:7:void* tflite::{anonymous}::Relu6Init(TfLiteContext*, const char*, size_t)	1
+activations.cc:76:14:TfLiteStatus tflite::{anonymous}::Relu6Eval(TfLiteContext*, TfLiteNode*)	5
+activations.cc:38:14:TfLiteStatus tflite::{anonymous}::ReluEval(TfLiteContext*, TfLiteNode*)	5
+activations.cc:112:20:TfLiteRegistration tflite::Register_RELU()	1
+activations.cc:116:20:TfLiteRegistration tflite::Register_RELU6()	1

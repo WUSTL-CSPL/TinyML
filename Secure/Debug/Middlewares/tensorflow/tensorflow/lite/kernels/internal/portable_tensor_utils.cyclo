@@ -1,0 +1,5 @@
+portable_tensor_utils.cc:40:6:void tflite::tensor_utils::ApplyReluToVector(const float*, int, float*)	2
+portable_tensor_utils.cc:48:6:void tflite::tensor_utils::ApplyRelu1ToVector(const float*, int, float*)	2
+portable_tensor_utils.cc:56:6:void tflite::tensor_utils::ApplyRelu6ToVector(const float*, int, float*)	2
+portable_tensor_utils.cc:64:6:void tflite::tensor_utils::ApplySignbitToVector(const float*, int, float*)	2
+portable_tensor_utils.cc:71:6:void tflite::tensor_utils::UnpackDenseInt4IntoInt8(const int8_t*, int, int8_t*)	3

@@ -1,0 +1,18 @@
+op_macros.h:24:13:void AbortImpl()	1
+strided_slice.cc:130:7:void* tflite::ops::micro::strided_slice::Init(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+strided_slice_logic.h:29:12:int tflite::strided_slice::Clamp(int, int, int)	2
+strided_slice_logic.h:36:13:void tflite::strided_slice::StridedSlicePadIndices(tflite::StridedSliceParams*, int)	6
+strided_slice_logic.h:75:12:int tflite::strided_slice::StridedSliceStartForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int32_t)	3
+strided_slice_logic.h:100:12:int tflite::strided_slice::StridedSliceEndForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int, int)	6
+strided_slice.cc:71:28:tflite::StridedSliceParams tflite::ops::micro::strided_slice::BuildStridedSliceParams(tflite::ops::micro::strided_slice::StridedSliceContext*)	5
+strided_slice.cc:95:14:TfLiteStatus tflite::ops::micro::strided_slice::CheckOutputSize(TfLiteContext*, tflite::ops::micro::strided_slice::StridedSliceContext*)	18
+strided_slice.cc:135:14:TfLiteStatus tflite::ops::micro::strided_slice::Prepare(TfLiteContext*, TfLiteNode*)	6
+strided_slice.cc:203:20:TfLiteRegistration tflite::ops::micro::Register_STRIDED_SLICE()	1
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = float]	15
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = signed char]	15
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = short int]	15
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = long int]	15
+strided_slice.h:30:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = bool]	15
+strided_slice.cc:149:14:TfLiteStatus tflite::ops::micro::strided_slice::Eval(TfLiteContext*, TfLiteNode*)	11

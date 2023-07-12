@@ -1,0 +1,8 @@
+split_v.cc:75:14:TfLiteStatus tflite::ops::micro::split_v::Prepare(TfLiteContext*, TfLiteNode*)	4
+op_macros.h:24:13:void AbortImpl()	1
+split_v.cc:124:20:TfLiteRegistration tflite::ops::micro::Register_SPLIT_V()	1
+split_v.cc:30:14:TfLiteStatus tflite::ops::micro::split_v::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = float]	11
+split_v.cc:30:14:TfLiteStatus tflite::ops::micro::split_v::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = signed char]	11
+split_v.cc:30:14:TfLiteStatus tflite::ops::micro::split_v::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = short int]	11
+split_v.cc:30:14:TfLiteStatus tflite::ops::micro::split_v::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = long int]	11
+split_v.cc:89:14:TfLiteStatus tflite::ops::micro::split_v::Eval(TfLiteContext*, TfLiteNode*)	8

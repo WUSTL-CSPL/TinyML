@@ -1,0 +1,7 @@
+space_to_batch_nd.cc:47:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	12
+op_macros.h:24:13:void AbortImpl()	1
+space_to_batch_nd.cc:42:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+space_to_batch_nd.h:28:21:tflite::RuntimeShape tflite::reference_ops::ExtendShapeSpaceToBatch(const tflite::RuntimeShape&)	4
+space_to_batch_nd.cc:70:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	35
+space_to_batch_nd.cc:117:20:TfLiteRegistration tflite::Register_SPACE_TO_BATCH_ND()	1

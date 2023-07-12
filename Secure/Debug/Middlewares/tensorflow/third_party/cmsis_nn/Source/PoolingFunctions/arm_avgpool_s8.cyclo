@@ -1,0 +1,2 @@
+arm_avgpool_s8.c:220:21:arm_avgpool_s8	20
+arm_avgpool_s8.c:349:9:arm_avgpool_s8_get_buffer_size	1

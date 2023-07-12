@@ -1,0 +1,4 @@
+gather.cc:100:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	24
+op_macros.h:24:13:void AbortImpl()	1
+gather.cc:191:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	43
+gather.cc:220:20:TfLiteRegistration tflite::Register_GATHER()	1

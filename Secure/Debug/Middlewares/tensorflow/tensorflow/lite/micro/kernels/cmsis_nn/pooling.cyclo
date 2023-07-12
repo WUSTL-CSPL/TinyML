@@ -1,0 +1,16 @@
+pooling.cc:146:14:TfLiteStatus tflite::{anonymous}::MaxPrepare(TfLiteContext*, TfLiteNode*)	2
+op_macros.h:24:13:void AbortImpl()	1
+pooling.cc:141:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+pooling.cc:153:14:TfLiteStatus tflite::{anonymous}::AveragePrepare(TfLiteContext*, TfLiteNode*)	7
+pooling.cc:37:6:void tflite::{anonymous}::AverageEvalQuantized(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	8
+pooling.cc:190:14:TfLiteStatus tflite::{anonymous}::AverageEval(TfLiteContext*, TfLiteNode*)	4
+pooling.cc:219:14:TfLiteStatus tflite::{anonymous}::AverageEvalInt8(TfLiteContext*, TfLiteNode*)	3
+pooling.cc:91:14:TfLiteStatus tflite::{anonymous}::MaxEvalInt8(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	8
+pooling.cc:265:14:TfLiteStatus tflite::{anonymous}::MaxEvalInt8(TfLiteContext*, TfLiteNode*)	3
+pooling.cc:237:14:TfLiteStatus tflite::{anonymous}::MaxEval(TfLiteContext*, TfLiteNode*)	4
+pooling.cc:284:20:TfLiteRegistration tflite::Register_AVERAGE_POOL_2D_INT8()	1
+pooling.cc:288:20:TfLiteRegistration tflite::Register_AVERAGE_POOL_2D()	1
+pooling.cc:292:20:TfLiteRegistration tflite::Register_MAX_POOL_2D_INT8()	1
+pooling.cc:296:20:TfLiteRegistration tflite::Register_MAX_POOL_2D()	1

@@ -1,0 +1,9 @@
+aiTestUtility.h:128:20:_mon_alloc_reset	1
+aiSystemPerformance_TFLM.c:542:12:aiTestConsole	8
+aiSystemPerformance_TFLM.c:152:12:_observer_node_cb	2
+aiSystemPerformance_TFLM.c:144:17:_current_time_ticks_cb	2
+aiSystemPerformance_TFLM.c:106:5:tflm_io_write	1
+aiSystemPerformance_TFLM.c:120:6:log_tensor	6
+aiSystemPerformance_TFLM.c:576:5:aiSystemPerformanceInit	4
+aiSystemPerformance_TFLM.c:595:5:aiSystemPerformanceProcess	42
+aiSystemPerformance_TFLM.c:672:6:aiSystemPerformanceDeInit	2

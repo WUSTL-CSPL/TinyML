@@ -1,0 +1,6 @@
+op_macros.h:24:13:void AbortImpl()	1
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	4
+depthwise_conv_common.cc:41:17:tflite::DepthwiseParams tflite::DepthwiseConvParamsFloat(const TfLiteDepthwiseConvParams&, const tflite::OpDataConv&)	4
+depthwise_conv_common.cc:59:17:tflite::DepthwiseParams tflite::DepthwiseConvParamsQuantized(const TfLiteDepthwiseConvParams&, const tflite::OpDataConv&)	1
+depthwise_conv_common.cc:80:14:TfLiteStatus tflite::CalculateOpDataDepthwiseConv(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, int, int, int, int, int, int, TfLiteType, tflite::OpDataConv*)	8
+depthwise_conv_common.cc:136:14:TfLiteStatus tflite::DepthwiseConvPrepare(TfLiteContext*, TfLiteNode*)	16

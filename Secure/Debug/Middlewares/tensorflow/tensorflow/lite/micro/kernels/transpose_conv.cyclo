@@ -1,0 +1,12 @@
+op_macros.h:24:13:void AbortImpl()	1
+transpose_conv.cc:144:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	2
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+transpose_conv.h:126:13:void tflite::reference_integer_ops::TransposeConv(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const Scalar*, const tflite::RuntimeShape&, int16_t*, const tflite::RuntimeShape&, int8_t*, Scalar*) [with Scalar = long long int]	24
+transpose_conv.cc:240:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	66
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	2
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	4
+transpose_conv.cc:149:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	34
+transpose_conv.cc:347:20:TfLiteRegistration tflite::Register_TRANSPOSE_CONV()	1

@@ -1,0 +1,8 @@
+op_macros.h:24:13:void AbortImpl()	1
+leaky_relu.cc:48:7:void* tflite::LeakyReluInit(TfLiteContext*, const char*, size_t)	1
+types.h:312:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	4
+common.h:253:16:int32_t tflite::MultiplyByQuantizedMultiplier(int32_t, int32_t, int)	5
+leaky_relu.cc:90:20:TfLiteRegistration tflite::Register_LEAKY_RELU()	1
+leaky_relu.cc:30:6:void tflite::QuantizeLeakyRelu(const tflite::LeakyReluOpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with T = signed char]	5
+leaky_relu.cc:30:6:void tflite::QuantizeLeakyRelu(const tflite::LeakyReluOpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with T = short int]	5
+leaky_relu.cc:53:14:TfLiteStatus tflite::LeakyReluEval(TfLiteContext*, TfLiteNode*)	6

@@ -1,0 +1,13 @@
+comparisons.h:37:13:bool tflite::reference_ops::GreaterFn(T, T) [with T = float]	1
+comparisons.h:45:13:bool tflite::reference_ops::LessFn(T, T) [with T = float]	1
+comparisons.h:37:13:bool tflite::reference_ops::GreaterFn(T, T) [with T = signed char]	1
+comparisons.h:45:13:bool tflite::reference_ops::LessFn(T, T) [with T = signed char]	1
+op_macros.h:24:13:void AbortImpl()	1
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+arg_min_max.cc:110:20:TfLiteRegistration tflite::Register_ARG_MAX()	1
+arg_min_max.cc:114:20:TfLiteRegistration tflite::Register_ARG_MIN()	1
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = float; T2 = long int; T3 = long int; Cmp = bool(float, float)]	11
+arg_min_max.h:36:6:void tflite::reference_ops::ArgMinMax(const tflite::RuntimeShape&, const T1*, const T3*, const tflite::RuntimeShape&, T2*, const Cmp&) [with T1 = signed char; T2 = long int; T3 = long int; Cmp = bool(signed char, signed char)]	11
+arg_min_max.cc:53:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*, bool)	7
+arg_min_max.cc:104:14:TfLiteStatus tflite::{anonymous}::ArgMaxEval(TfLiteContext*, TfLiteNode*)	1
+arg_min_max.cc:100:14:TfLiteStatus tflite::{anonymous}::ArgMinEval(TfLiteContext*, TfLiteNode*)	1

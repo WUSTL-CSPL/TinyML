@@ -1,0 +1,13 @@
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	4
+op_macros.h:24:13:void AbortImpl()	1
+logistic.cc:33:7:void* tflite::{anonymous}::LogisticInit(TfLiteContext*, const char*, size_t)	1
+logistic.h:30:13:void tflite::reference_ops::Logistic(const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	7
+logistic.cc:108:20:TfLiteRegistration tflite::Register_LOGISTIC()	1
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	1
+fixedpoint.h:842:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	9
+fixedpoint.h:687:47:typename FixedPointType::ScalarRawType gemmlowp::RescaleConstantInitializer(int32_t) [with FixedPointType = gemmlowp::FixedPoint<long int, 0>]	1
+fixedpoint.h:539:55:gemmlowp::FixedPoint<tRawType, (tIntegerBits_a + tIntegerBits_b)> gemmlowp::operator*(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>, gemmlowp::FixedPoint<tRawType, tIntegerBits_b>) [with tRawType = long int; int tIntegerBits_a = 0; int tIntegerBits_b = 0]	1
+fixedpoint.h:721:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	1
+fixedpoint.h:746:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_negative_values(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = long int; int tIntegerBits = 4]	1
+logistic.h:26:13:void tflite::reference_integer_ops::Logistic(int32_t, int32_t, int32_t, int32_t, int32_t, const int8_t*, int8_t*)	7
+logistic.cc:38:14:TfLiteStatus tflite::{anonymous}::LogisticEval(TfLiteContext*, TfLiteNode*)	15

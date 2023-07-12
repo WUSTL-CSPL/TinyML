@@ -1,0 +1,13 @@
+op_macros.h:24:13:void AbortImpl()	1
+l2norm.cc:81:7:void* tflite::ops::micro::l2norm::Init(TfLiteContext*, const char*, size_t)	1
+l2norm.cc:42:14:TfLiteStatus tflite::ops::micro::l2norm::Prepare(TfLiteContext*, TfLiteNode*)	14
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+types.h:530:12:int tflite::MatchingFlatSizeSkipDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&)	7
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	4
+l2norm.cc:140:20:TfLiteRegistration tflite::ops::micro::Register_L2NORM_REF()	1
+l2norm.cc:144:20:TfLiteRegistration tflite::ops::micro::Register_L2_NORMALIZATION()	1
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	1
+common.h:830:13:void tflite::GetInvSqrtQuantizedMultiplierExp(int32_t, int, int32_t*, int*)	12
+l2normalization.h:25:13:void tflite::reference_integer_ops::L2Normalization(int32_t, int32_t, int32_t, const int8_t*, int8_t*)	5
+l2norm.cc:87:14:TfLiteStatus tflite::ops::micro::l2norm::Eval(TfLiteContext*, TfLiteNode*)	8

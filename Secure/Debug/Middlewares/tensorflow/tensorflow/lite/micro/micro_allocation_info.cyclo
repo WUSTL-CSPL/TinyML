@@ -1,0 +1,20 @@
+table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+schema_generated.h:11684:26:tflite::BuiltinOptions tflite::Operator::builtin_options_type() const	2
+schema_generated.h:11687:15:const void* tflite::Operator::builtin_options() const	2
+schema_generated.h:12708:67:const flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> >* tflite::SubGraph::tensors() const	2
+schema_generated.h:13172:69:const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >* tflite::Model::subgraphs() const	2
+op_macros.h:24:13:void AbortImpl()	1
+micro_allocation_info.cc:37:6:void tflite::AllocationInfoBuilder::UpdateFirstCreated(tflite::AllocationInfo*, int)	2
+micro_allocation_info.cc:48:6:void tflite::AllocationInfoBuilder::UpdateLastUsed(tflite::AllocationInfo*, int)	1
+micro_allocation_info.cc:146:14:TfLiteStatus tflite::AllocationInfoBuilder::FreeAllocationInfo()	1
+micro_allocation_info.cc:330:14:TfLiteStatus tflite::AllocationInfoBuilder::GetOfflinePlannedOffsets(const int32_t**)	9
+table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long int]	2
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = long int]	1
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::Operator>]	1
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::SubGraph>]	1
+micro_allocation_info.cc:103:14:TfLiteStatus tflite::AllocationInfoBuilder::CreateAllocationInfo(int)	4
+table.h:50:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*]	2
+micro_allocation_info.cc:154:14:TfLiteStatus tflite::AllocationInfoBuilder::ValidateSubgraph(const tflite::SubGraph*, TfLiteEvalTensor*)	7
+micro_allocation_info.cc:178:14:TfLiteStatus tflite::AllocationInfoBuilder::InitializeAllocationInfo(const int32_t*, tflite::SubgraphAllocations*)	10
+micro_allocation_info.cc:225:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkAllocationLifetimes(int, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	21
+micro_allocation_info.cc:54:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkSubgraphLifetimesIfNecessary(const tflite::Operator*, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	13

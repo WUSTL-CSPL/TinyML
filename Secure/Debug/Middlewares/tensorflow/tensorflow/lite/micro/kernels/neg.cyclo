@@ -1,0 +1,3 @@
+op_macros.h:24:13:void AbortImpl()	1
+neg.cc:30:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	7
+neg.cc:53:20:TfLiteRegistration tflite::Register_NEG()	1

@@ -1,0 +1,6 @@
+op_macros.h:24:13:void AbortImpl()	1
+unidirectional_sequence_lstm.cc:1215:14:TfLiteStatus tflite::{anonymous}::UnidirectionalSequenceLstmEval(TfLiteContext*, TfLiteNode*)	6
+unidirectional_sequence_lstm.cc:501:7:void* tflite::{anonymous}::UnidirectionalSequenceLstmInit(TfLiteContext*, const char*, size_t)	1
+unidirectional_sequence_lstm.cc:817:14:TfLiteStatus tflite::{anonymous}::PrecomputeZeroPointTimesWeightWithBias(TfLiteContext*, int32_t, const TfLiteTensor*, const TfLiteTensor*, int32_t**)	5
+unidirectional_sequence_lstm.cc:1038:14:TfLiteStatus tflite::{anonymous}::UnidirectionalSequenceLstmPrepare(TfLiteContext*, TfLiteNode*)	216
+unidirectional_sequence_lstm.cc:1381:20:TfLiteRegistration tflite::Register_UNIDIRECTIONAL_SEQUENCE_LSTM()	1

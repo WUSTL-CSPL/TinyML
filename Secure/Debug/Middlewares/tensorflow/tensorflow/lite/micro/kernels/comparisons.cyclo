@@ -1,0 +1,34 @@
+op_macros.h:24:13:void AbortImpl()	1
+comparisons.cc:535:7:void* tflite::ops::micro::comparisons::Init(TfLiteContext*, const char*, size_t)	1
+comparisons.cc:540:14:TfLiteStatus tflite::ops::micro::comparisons::Prepare(TfLiteContext*, TfLiteNode*)	4
+runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	2
+runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	3
+runtime_shape.h:123:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	17
+types.h:322:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	7
+common.h:238:16:int32_t tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32_t, int32_t, int)	4
+common.h:915:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<4>&, int, int, int, int)	8
+comparisons.cc:586:20:TfLiteRegistration tflite::ops::micro::Register_EQUAL()	1
+comparisons.cc:591:20:TfLiteRegistration tflite::ops::micro::Register_NOT_EQUAL()	1
+comparisons.cc:596:20:TfLiteRegistration tflite::ops::micro::Register_GREATER()	1
+comparisons.cc:601:20:TfLiteRegistration tflite::ops::micro::Register_GREATER_EQUAL()	1
+comparisons.cc:606:20:TfLiteRegistration tflite::ops::micro::Register_LESS()	1
+comparisons.cc:611:20:TfLiteRegistration tflite::ops::micro::Register_LESS_EQUAL()	1
+kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = bool]	1
+kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	1
+kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long long int]	1
+kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+common.h:997:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	2
+comparisons.h:115:40:tflite::reference_ops::BroadcastComparison4DSlowCommon tflite::reference_ops::BroadcastComparison4DSlowPreprocess(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	7
+comparisons.h:168:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = tflite::reference_ops::EqualFn<long int>]	8
+comparisons.cc:38:14:TfLiteStatus tflite::ops::micro::comparisons::{anonymous}::EqualEval(TfLiteContext*, TfLiteNode*)	49
+comparisons.h:168:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = tflite::reference_ops::NotEqualFn<long int>]	8
+comparisons.cc:130:14:TfLiteStatus tflite::ops::micro::comparisons::{anonymous}::NotEqualEval(TfLiteContext*, TfLiteNode*)	49
+comparisons.h:168:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = tflite::reference_ops::GreaterFn<long int>]	8
+comparisons.cc:221:14:TfLiteStatus tflite::ops::micro::comparisons::{anonymous}::GreaterEval(TfLiteContext*, TfLiteNode*)	38
+comparisons.h:168:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = tflite::reference_ops::GreaterEqualFn<long int>]	8
+comparisons.cc:299:14:TfLiteStatus tflite::ops::micro::comparisons::{anonymous}::GreaterEqualEval(TfLiteContext*, TfLiteNode*)	38
+comparisons.h:168:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = tflite::reference_ops::LessFn<long int>]	8
+comparisons.cc:377:14:TfLiteStatus tflite::ops::micro::comparisons::{anonymous}::LessEval(TfLiteContext*, TfLiteNode*)	38
+comparisons.h:168:13:void tflite::reference_ops::BroadcastComparison4DSlowWithScaling(const tflite::ComparisonParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, bool*) [with T = signed char; bool (* F)(long int, long int) = tflite::reference_ops::LessEqualFn<long int>]	8
+comparisons.cc:455:14:TfLiteStatus tflite::ops::micro::comparisons::{anonymous}::LessEqualEval(TfLiteContext*, TfLiteNode*)	38
